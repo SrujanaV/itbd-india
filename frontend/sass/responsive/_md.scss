@@ -1,3 +1,81 @@
  @media (max-width: $screen-md-max) {
+     // screen size 992px
      // Desktop
+     //navbar
+     .himg2 .dropdown-menu a {
+         font-size: 11px;
+     } //  .headerhide {
+     //      display: block;
+     //      .dropdown-menu>li>a:hover {
+     //          background-color: transparent !important;
+     //      }
+     //      .dropdown-menu>li>a {
+     //          padding: 3px 0 !important;
+     //      }
+     //      .btn-group.open .dropdown-toggle {
+     //          box-shadow: none !important;
+     //      }
+     //      .dropdown-menu {
+     //          margin-top: 13px;
+     //          background-color: #fdd116 !important;
+     //      }
+     //      .fixeddrop {
+     //          position: fixed !important;
+     //          top: 46px !important;
+     //      }
+     //      .btn-group {
+     //          float: left;
+     //          margin-top: 20px;
+     //          margin-right: 17px;
+     //      }
+     //      .btn-default,
+     //      .btn-default:active,
+     //      .btn-default:focus,
+     //      .btn-default:hover {
+     //          padding: 0;
+     //          color: #002b7f !important;
+     //          background-color: #fdd116 !important;
+     //          border: none !important;
+     //      }
+     //      i {
+     //          font-size: 25px;
+     //      }
+     //  }
+     .widht {
+         width: 798px !important;
+     }
+     .cont {
+         width: 155px;
+     }
+     .hdp {
+         width: 280px;
+     }
+     .hdn {
+         font-size: 11px;
+         letter-spacing: 1px;
+         padding: 0 !important;
+         margin: 0;
+     }
+     .hdn {
+         margin-top: 9px;
+         margin-right: 15px;
+     }
+     .hdn {
+         font-size: 13px !important;
+         width: auto !important;
+     }
+     .himg {
+         width: 63px;
+     }
+     .himg2 .form-control {
+         font-size: 16px;
+     } //navbar end
+     //footer
+     .stp .form-control {
+         font-size: 10px;
+     }
+     .footermen {
+         margin: 0 !important;
+         padding: 15px 0;
+     } //end of footer
  }

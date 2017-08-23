@@ -20,7 +20,32 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         };
 
 
-
+        $scope.mySlides = [{
+            img: "img/qwe.jpg",
+            events: "TOMMOROWLAND",
+            date: "27th Agust,2016"
+        }, {
+            img: "img/qwe.jpg",
+            events: "TOMMOROWLAND",
+            date: "27th Agust,2016"
+        }, {
+            img: "img/qwe.jpg",
+            events: "TOMMOROWLAND",
+            date: "27th Agust,2016"
+        }, {
+            img: "img/qwe.jpg",
+            events: "TOMMOROWLAND",
+            date: "27th Agust,2016"
+        }];
+        $scope.mySlidestop = [{
+            img: "img/home2.jpg",
+        }, {
+            img: "img/home2.jpg",
+        }, {
+            img: "img/home2.jpg",
+        }, {
+            img: "img/home2.jpg"
+        }];
     })
 
     .controller('FormCtrl', function ($scope, TemplateService, NavigationService, $timeout, toastr, $http) {

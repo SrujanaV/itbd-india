@@ -1,3 +1,35 @@
- @media (min-width: $screen-lg-min) {
-     // Wide Desktop
- }
+@media (min-width: $screen-lg-min) {
+    //screen size - 1200px
+    // Wide Desktop
+    // navbar 
+    .hbc .tp {
+        margin-top: 3px;
+        padding-left: 100px;
+    }
+    .headerhide {
+        display: none;
+    }
+    .hdp {
+        padding: 25px 0 4px;
+        font-weight: 700;
+        color: #0b358c;
+        letter-spacing: 2px;
+    }
+    .hdn {
+        font-size: 11px;
+        letter-spacing: 1px;
+        padding: 0 !important;
+        margin: 0;
+    }
+    .himg2 .form-control {
+        font-size: 19px;
+    }
+    .himg2 .gobtn {
+        padding-left: 1px;
+        width: 18%;
+    } //end of navbar
+    //footer
+    .stp {
+        font-size: 18px;
+    } //end of footer
+}

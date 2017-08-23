@@ -11,6 +11,7 @@ myApp.service('TemplateService', function () {
         this.menu = "views/template/menu.html";
         this.content = "views/content/content.html";
         this.footer = "views/template/footer.html";
+        this.footermenu = "views/template/footermenu.html"
     };
 
     this.getHTML = function (page) {

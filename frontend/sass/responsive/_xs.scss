@@ -1,3 +1,32 @@
  @media (max-width: $screen-xs-max) {
      // Mobile
+     //navbar
+     .hbc .tp {
+         padding-left: 0 !important;
+     }
+     .himg2 .dropdown-menu a {
+         margin: 4px 5px !important;
+     }
+     .hdp {
+         letter-spacing: 1px;
+     }
+     .himg2 .inputtag {
+         width: 79%;
+     }
+     .himg2 .form-control {
+         font-size: 12px;
+         overflow: hidden !important;
+         white-space: pre-wrap;
+         text-overflow: ellipsis;
+     }
+     .headerhide {
+         display: none;
+     }
+     .headera>a {
+         border-right: 0px;
+     } //navbar end
+     //footer
+     .stp .form-control {
+         font-size: 15px;
+     } //end of footer
  }
