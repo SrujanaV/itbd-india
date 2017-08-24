@@ -46,6 +46,64 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         }, {
             img: "img/home2.jpg"
         }];
+
+        $scope.popularDestination = [{
+                id: 1,
+                name: "Goa",
+                image: "img/india/goa.jpg"
+            },
+            {
+                id: 2,
+                name: "Goa",
+                image: "img/india/goa.jpg"
+            },
+            {
+                id: 3,
+                name: "Goa",
+                image: "img/india/goa.jpg"
+            },
+            {
+                id: 4,
+                name: "Goa",
+                image: "img/india/goa.jpg"
+            }
+        ];
+
+        $scope.popularAttraction = [{
+                id: 1,
+                name: "Goa",
+                image1: "img/india/goa.jpg"
+            },
+            {
+                id: 2,
+                name: "Goa",
+                image1: "img/india/goa.jpg"
+            },
+            {
+                id: 3,
+                name: "Goa",
+                image1: "img/india/goa.jpg"
+            }, {
+                id: 4,
+                name: "Goa",
+                image1: "img/india/goa.jpg"
+            }
+        ];
+        $scope.mySlidesss = [{
+                id: 1,
+                banner: "img/india/goa.jpg"
+            },
+            {
+                id: 2,
+                banner: "img/india/goa.jpg"
+            },
+            {
+                id: 3,
+                banner: "img/india/goa.jpg"
+            }
+
+        ];
+
     })
 
     .controller('FormCtrl', function ($scope, TemplateService, NavigationService, $timeout, toastr, $http) {

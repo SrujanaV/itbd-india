@@ -1,4 +1,5 @@
  @media (max-width: $screen-sm-max) {
+     //max width:991
      //screen size 768px
      // Tablet
      //navbar
@@ -91,9 +92,6 @@
          padding: 2% 0;
      } //footer
      //home
-     .displaynon {
-         display: none;
-     }
      .homeslid .flex-control-nav {
          width: 30% !important;
          position: absolute;
@@ -117,14 +115,13 @@
          width: 50px;
          background-size: 37px 33px;
          background-repeat: no-repeat;
-     }
-     .display {
-         cursor: pointer;
-         display: block;
-         margin-bottom: -21px;
-         margin-top: 9%;
-         padding-left: 10px;
-     }
+     } //  .display {
+     //      cursor: pointer;
+     //      display: block;
+     //      margin-bottom: -21px;
+     //      margin-top: 9%;
+     //      padding-left: 10px;
+     //  }
      .disp {
          font-weight: 600;
          font-size: 16px;
@@ -141,11 +138,81 @@
          margin: 0;
          color: #ffca18;
          font-weight: bolder;
+     } //  .display2 {
+     //      cursor: pointer;
+     //      display: block;
+     //      text-align: right;
+     //      margin-bottom: 7%;
+     //  }
+     .events .over-layer .button-holder {
+         font-size: 11px;
+         width: 90%;
      }
-     .display2 {
-         cursor: pointer;
-         display: block;
-         text-align: right;
-         margin-bottom: 7%;
+     .event-name span {
+         font-size: 23px;
+     }
+     .shadow-down {
+         height: 13%;
+     }
+     .m8 .ml {
+         display: inherit;
+         margin-left: 10%;
+     }
+     .m8 .mr {
+         margin-left: 0;
+     }
+     .borderup {
+         background: linear-gradient(to right, white 30%, white 30%, white 30%, white 30%, #FDD116 29%);
+     }
+     .p {
+         font-size: 12px;
+     }
+     .p2 {
+         font-size: 43px;
+     }
+     .margleft {
+         margin-left: 70px;
+     } //enquiry section in home
+     .m4 .m2 .padup {
+         padding: 82% 0 0;
+     }
+     .m4 .m2 .pd15 h1 {
+         font-size: 43px;
+     }
+     .imgab {
+         width: 38%;
+     }
+     .labsec {
+         font-size: 14px;
+     } //about section
+     .imAb {
+         margin: 0;
+         width: 210px;
+         padding: 0;
+     }
+     .spAb {
+         width: auto;
+         text-align: center;
+         padding-left: 0;
+     }
+     .spAb h1 {
+         font-size: 40px;
+     }
+     .spAb .ain {
+         font-size: 10px;
+     }
+     .margbotom {
+         margin-bottom: 0 !important;
+         font-size: 16px;
+     }
+     .homeslid .flex-control-nav {
+         width: 30% !important;
+         position: absolute;
+         bottom: 0 !important;
+         text-align: center !important;
+         display: inline-block !important;
+         z-index: 2 !important;
+         right: 0 !important;
+         margin-bottom: 2%;
      } //home end
  }

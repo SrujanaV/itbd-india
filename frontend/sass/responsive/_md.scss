@@ -78,4 +78,39 @@
          margin: 0 !important;
          padding: 15px 0;
      } //end of footer
+     //home
+     //  .p {
+     //      font-size: 12px;
+     //  }   .p2 {
+     //       font-size: 43px;
+     //   }
+     .event-name {
+         line-height: 12px;
+         span {
+             font-size: 10px;
+         }
+     }
+     .firstimg .front .event-name {
+         bottom: 23px !important;
+     }
+     .eventshome img {
+         height: auto;
+     }
+     .p11 {
+         letter-spacing: 3px;
+         margin-right: 21px;
+     } //about section
+     //  .imAb {
+     //      padding-top: 20%;
+     //      width: 230px;
+     //  }
+     .sado {
+         display: inline-block;
+         text-align: center;
+         float: inherit;
+     }
+     .margbotom {
+         margin-bottom: 0 !important;
+         font-size: 20px;
+     } //home end
  }

@@ -5,6 +5,7 @@ $brand-success: #84ce3c !default;
 $brand-warning: #ffec39 !default;
 $brand-danger: #fc483f !default;
 $brand-info: #000072 !default;
+$white: #ffffff !default;
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 
 /* Bootstrap Variables Goes Here */
@@ -31,6 +32,26 @@ $brand-info: #000072 !default;
     font-family: "Robotor";
     src: url("../fonts/Roboto-Regular_1.ttf");
     font-weight: 400;
+}
+
+@font-face {
+    font-family: "plan-dark-bold";
+    src: url("../fonts/plan-dark-bold.ttf");
+}
+
+@font-face {
+    font-family: "plan-dark-m";
+    src: url("../fonts/plan-dark-m.ttf");
+}
+
+@font-face {
+    font-family: "plan-dark-r1";
+    src: url("../fonts/plan-dark-r1.ttf");
+}
+
+@font-face {
+    font-family: "plan-dark-sb";
+    src: url("../fonts/plan-dark-sb.ttf");
 }
 
 body {
@@ -183,6 +204,17 @@ header {
 
 .bluecol:hover {
     color: #002b7f!important;
+    text-decoration: none;
+}
+
+.color-white,
+.whit_color,
+.whitecolor {
+    color: $white !important;
+}
+
+.whit_color:hover {
+    color: $white !important;
     text-decoration: none;
 }
 
@@ -620,4 +652,433 @@ nav li:hover .dropdown-menu {
     display: none;
 }
 
-//home
+.p2 {
+    font-size: 63px;
+    font-weight: bolder;
+    color: #fdd116;
+    position: absolute;
+    line-height: 77%;
+    padding-top: 26px;
+}
+
+.p {
+    font-weight: 600;
+    float: right;
+    font-size: 24px;
+    color: #fff;
+    background-image: url("../img/btn-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 5px 32px;
+    margin: 0;
+}
+
+.p1 {
+    letter-spacing: 3px;
+    margin-left: 2%;
+    float: left;
+    margin-top: 13px;
+}
+
+.p222 {
+    margin: 10% 0 0 -3%;
+}
+
+.padng0 {
+    padding: 0 !important;
+}
+
+.hoverimg {
+    margin: 42% 30%;
+}
+
+.events,
+.eventshome {
+    position: relative;
+    cursor: pointer;
+    &:hover {
+        .over-layer {
+            display: block;
+        }
+    }
+    .over-layer {
+        display: none;
+        background-color: rgba(63, 0, 255, 0.55);
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        @include transform(translate(-50%,
+        -50%));
+        .button-holder {
+            font-weight: 600;
+            font-size: 14px;
+            color: #002b7f;
+            background-image: url("../img/btn-bg1.png");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            padding: 20px 30px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            @include transform(translate(-50%,
+            -50%));
+            width: 70%;
+            .ext-detail {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                @include transform(translate(-50%,
+                -50%));
+                background: none;
+                border: 0;
+                font-family: pregular;
+                width: 100%;
+                letter-spacing: 2px;
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+    }
+}
+
+.event-name {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translate(-50%);
+    color: #fff;
+    font-weight: 600;
+    font-family: pregular;
+    width: 94%;
+    text-align: center;
+    span {
+        text-transform: uppercase;
+        letter-spacing: 0.5px;
+        font-size: 16px;
+    }
+}
+
+.firstimg .front .event-name {
+    bottom: 47px !important;
+}
+
+.shadow-down {
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(rgba(255, 255, 255, 0), rgb(0, 0, 0));
+    height: 20%;
+    width: 100%;
+}
+
+.addimg {
+    position: absolute;
+    right: -38px;
+    bottom: 40%;
+    cursor: pointer;
+    img {
+        width: 35px;
+    }
+}
+
+.addimg1 {
+    position: absolute;
+    left: -38px;
+    bottom: 40%;
+    cursor: pointer;
+    img {
+        width: 35px;
+    }
+}
+
+.borderdown {
+    background: linear-gradient(to right, #fdd116 41%, #fdd116 41%, #fdd116 40%, #fdd116 40%, rgba(255, 255, 255, 0) 40%);
+    border-left: 20px solid #fdd116;
+    padding: 20px;
+    margin-top: -20px;
+    position: relative;
+}
+
+.m8 {
+    margin: 6% 0;
+    .mr {
+        cursor: pointer;
+        margin-right: 8%;
+        margin-left: -7%;
+    }
+    .ml {
+        cursor: pointer;
+        margin-left: 17%;
+        display: flex;
+    }
+}
+
+.hoverimg {
+    margin: 42% 30%;
+}
+
+.p11 {
+    letter-spacing: 3px;
+    margin-right: 37px;
+}
+
+.p22 {
+    margin-left: 48%;
+    margin-right: -5px;
+    z-index: 10;
+    margin-top: 23px;
+    line-height: 79%;
+}
+
+.borderup {
+    background: linear-gradient(to right, white 58%, white 41%, white 41%, white 47%, #fdd116 47%);
+    border-right: 20px solid #fdd116;
+    padding: 20px;
+    position: relative;
+}
+
+//enquiry inside home
+.padd {
+    padding: 0 6%;
+}
+
+.paddup {
+    background: linear-gradient(to bottom, white 31%, white 17%, white 17%, #fdd116 17%);
+}
+
+.paddup figure {
+    overflow: inherit !important;
+}
+
+.m2 {
+    padding: 2%;
+    background: #fff;
+}
+
+.m4 {
+    margin-top: -4%;
+    .m2 {
+        margin: 0 3%;
+        background: #fdd116 !important;
+        padding: 2% 9%;
+        .pd15 {
+            padding: 0 15px;
+            h1 {
+                font-size: 52px;
+                line-height: 80%;
+                padding-top: 10px;
+            }
+        }
+        .padup {
+            padding: 89% 0 0;
+        }
+    }
+}
+
+figure .links {
+    margin: 10% 0;
+}
+
+.imgab {
+    width: 29%;
+    position: absolute;
+}
+
+.labsec {
+    font-weight: 500 !important;
+    font-size: 22px;
+    display: block;
+}
+
+.inputtag {
+    display: inline;
+    width: 81%;
+}
+
+.inputtag:hover {
+    background: none !important;
+}
+
+figure {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    padding: 0;
+    color: #fff;
+    margin: 0;
+}
+
+figure:hover figcaption {
+    opacity: 1;
+}
+
+figure figcaption {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    padding: 0;
+    height: auto;
+}
+
+figure .links {
+    margin: 10% 0;
+}
+
+.flipDiv figure:hover .front,
+figure.hover .front {
+    // @include transition(all 0.5s);
+    // -webkit-transition: all 0.5s;
+    // -moz-transition: all 0.5s;
+    // transition: all 0.5s;
+    // @include transform(rotateY(180deg));
+    @include transform(rotateY(180deg)); // -webkit-transform: rotateY(180deg);
+    // -moz-transform: rotateY(180deg);
+    // transform: rotateY(180deg);
+    z-index: 0;
+}
+
+.flipDiv figure:hover figcaption,
+figure.hover figcaption {
+    @include transform(rotateY(0)); // -webkit-transform: rotateY(0);
+    // -moz-transform: rotateY(0);
+    // transform: rotateY(0);
+}
+
+.paddup figure {
+    overflow: inherit !important;
+}
+
+.himg2 {
+    display: inline-block;
+    width: 50%;
+    text-align: left;
+    background: rgba(2, 44, 125, 0.77);
+    padding: 3% 0 3% 16%;
+    margin-left: 15%;
+    margin-top: 2.5%;
+    border-radius: 24px;
+    .btn-default:hover {
+        background-color: transparent !important; // border-color: transparent !important;
+        outline: none !important;
+    }
+    .ui-select-placeholder {
+        color: #fdd116 !important;
+    }
+    .inputtag {
+        display: inline;
+        width: 81%;
+    }
+    .inputtag:hover {
+        background: none !important;
+    }
+    .form-control {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        background: transparent url("../img/Vector-Smart-Object.png") no-repeat right center;
+        border-bottom: 4px solid #fdd116;
+        font-size: 23px;
+        color: #fdd116 !important;
+        padding: 0 6px;
+        height: auto;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        font-weight: bolder;
+        display: inline-block;
+        background-size: 24px;
+    }
+    .gobtn {
+        width: 15%;
+        padding: 0;
+        font-size: 26px;
+        font-family: 'Robotor';
+        background-color: rgba(255, 255, 255, 0);
+        font-weight: bolder;
+        border: none;
+        padding-left: 12px;
+        outline: none;
+    }
+}
+
+//about section
+.aboutin {
+    background: #fdd116;
+    padding: 5%;
+    text-align: center;
+}
+
+.imAb {
+    display: inline-block !important;
+    width: 250px;
+    vertical-align: top;
+    padding-top: 9%;
+}
+
+.spAb {
+    width: 50%;
+    display: inline-block;
+    padding-left: 5%;
+    text-align: left;
+    h1 {
+        font-size: 56px;
+        font-weight: bolder;
+        color: #012B7F;
+    }
+    .ain {
+        margin: 0 0 18px;
+        font-size: 16px;
+        color: #012B7F;
+    }
+}
+
+.margbotom {
+    margin-bottom: 0 !important;
+}
+
+.abinfo {
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+.sado {
+    font-weight: 600;
+    float: right;
+    font-size: 16px;
+    color: #fff;
+    background-image: url("../img/btn-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 12px 25px;
+}
+
+//last slider
+.padddown {
+    background: linear-gradient(to bottom, #fdd116 29%, #fdd116 80%, white 80%, white 80%, white 100%, white 100%);
+}
+
+.homeslid .flex-direction-nav {
+    display: none;
+}
+
+.homeslid .flex-control-nav {
+    width: 18% !important;
+    position: absolute;
+    bottom: 0 !important;
+    text-align: center !important;
+    display: inline-block !important;
+    z-index: 2 !important;
+    right: 7% !important;
+    margin-bottom: 2%;
+}
+
+.mim-home {
+    margin: 2%;
+}
+
+//end of home
