@@ -81,6 +81,23 @@
      }
      .himg2 .gobtn {
          font-size: 19px;
+     }
+     .cartadd .mycartme {
+         top: 313px;
+     }
+     .patmargin3 .formlabels label {
+         font-size: 14px;
+         text-align: inherit;
+     }
+     .mycart2 {
+         box-shadow: none;
+         -webkit-transform: inherit;
+         position: static;
+     }
+     .inputform {
+         width: 59% !important;
+         height: 29px !important;
+         font-size: 15px;
      } //navbar end
      //footer
      .mf,
@@ -149,7 +166,7 @@
          width: 90%;
      }
      .event-name span {
-         font-size: 23px;
+         font-size: 10px;
      }
      .shadow-down {
          height: 13%;
@@ -215,4 +232,17 @@
          right: 0 !important;
          margin-bottom: 2%;
      } //home end
+     //destination css starts here
+     .fsiz {
+         padding: 36px 0;
+         font-size: 64px;
+     }
+     .loadimag,
+     .lodm {
+         padding: 4% 0;
+         a {
+             padding: 13px 52px;
+             font-size: 11px;
+         }
+     }
  }

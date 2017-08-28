@@ -158,6 +158,71 @@ header {
     transform: translateY(-100%);
 }
 
+
+/* when showing the thing */
+
+
+/* ANIMATIONS (FROM ANIMATE) */
+
+
+/* flip in */
+
+@keyframes flipInX {
+    100% {
+        opacity: 1;
+    }
+    0% {
+        @include transform(translate3d(100%,
+        0,
+        0) skewX(30deg)); // -webkit-transform: translate3d(100%, 0, 0) skewX(30deg);
+        // transform: translate3d(100%, 0, 0) skewX(30deg);
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes flipInX {
+    100% {
+        opacity: 1;
+    }
+    0% {
+        @include transform(translate3d(100%,
+        0,
+        0) skewX(30deg)); // -webkit-transform: translate3d(100%, 0, 0) skewX(30deg);
+        // transform: translate3d(100%, 0, 0) skewX(30deg);
+        opacity: 0;
+    }
+}
+
+
+/* light speed out */
+
+@-webkit-keyframes lightSpeedOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        @include transform(translate3d(100%,
+        0,
+        0) skewX(30deg)); // -webkit-transform: translate3d(100%, 0, 0) skewX(30deg);
+        // transform: translate3d(100%, 0, 0) skewX(30deg);
+        opacity: 0;
+    }
+}
+
+@keyframes lightSpeedOut {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        @include transform(translate3d(100%,
+        0,
+        0) skewX(30deg)); // -webkit-transform: translate3d(100%, 0, 0) skewX(30deg);
+        // -ms-transform: translate3d(100%, 0, 0) skewX(30deg);
+        // transform: translate3d(100%, 0, 0) skewX(30deg);
+        opacity: 0;
+    }
+}
+
 // nav bar 
 .a-no_deco {
     color: #0d9dff;
@@ -200,6 +265,10 @@ header {
 
 .bluecol {
     color: #002b7f !important;
+}
+
+.bluecol_back {
+    background-color: #002b7f !important;
 }
 
 .bluecol:hover {
@@ -269,7 +338,7 @@ nav li:hover .dropdown-menu {
 }
 
 .widht {
-    width: 880px !important;
+    width: 750px !important;
 }
 
 .marg0 {
@@ -308,12 +377,16 @@ nav li:hover .dropdown-menu {
     color: #012B7F;
 }
 
+.nav_last>a {
+    border-right: 0px;
+}
+
 .dropdown:hover .colchange {
     color: #fdd116 !important;
 }
 
 .widht {
-    width: 880px !important;
+    width: 750px !important;
 }
 
 .hdn {
@@ -435,6 +508,127 @@ nav li:hover .dropdown-menu {
 //     border-right: 2px solid #002b7f;
 //     letter-spacing: 1px;
 // }
+
+/* when hiding the thing */
+
+.cartadd .ng-hide-add {
+    -webkit-animation: 0.5s lightSpeedOut ease;
+    animation: 0.5s lightSpeedOut ease;
+}
+
+.cartadd .ng-hide-remove {
+    -webkit-animation: 0.5s flipInX ease;
+    animation: 0.5s flipInX ease;
+}
+
+.cartadd {
+    // height: 197px;
+    position: fixed;
+    right: 1px;
+    z-index: 999;
+    top: 458px;
+    .mycartme {
+        position: fixed;
+        right: -35px;
+        z-index: 10;
+        top: 498px;
+        height: 0;
+        button {
+            box-shadow: rgb(0, 43, 127) 0 0 2px 0;
+            border-bottom: 0;
+            @include transform(rotate(-90deg)); // -webkit-transform: rotate(-90deg);
+        }
+    }
+}
+
+.paddmain {
+    padding-bottom: 15px;
+    box-shadow: #002b7f 0 0 1px 0;
+}
+
+.yellow_back_lightcolor {
+    background-color: #fdd116 !important;
+}
+
+.patmargin3 {
+    margin-top: 2%;
+    .formlabels {
+        button {
+            font-weight: 600;
+            font-size: 16px;
+            color: #fff;
+            background-image: url("../img/btn-bg.png");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            padding: 3px 25px;
+            border: none;
+            background-color: #fdd116;
+            outline: none;
+        }
+        .form-group {
+            margin-bottom: 6px !important;
+        }
+        label {
+            word-spacing: 2px;
+            font-size: 14px;
+            display: inline-block;
+            width: 32%;
+            float: left;
+            text-align: right;
+            margin-right: 2%;
+        }
+    }
+}
+
+.mycart2 {
+    box-shadow: #002b7f 0 -1px 1px -1px;
+    @include transform(rotate(-90deg)); // -webkit-transform: rotate(-90deg);
+    position: absolute;
+    left: -89px;
+    top: 51px;
+    z-index: 9999;
+    .socialpatt {
+        list-style: none;
+        text-align: center;
+        cursor: pointer;
+        padding: 6px;
+        margin: 0;
+    }
+    li {
+        padding: 6px 55px;
+        font-size: 18px;
+    }
+}
+
+.socialpatt p {
+    font-size: 16px;
+}
+
+.socialpatt a {
+    color: black !important;
+}
+
+.inputform {
+    color: #000000 !important;
+    background-color: rgba(255, 255, 255, 0.65) !important;
+    border: none !important;
+    width: 66% !important;
+    height: 27px !important;
+}
+
+.error {
+    visibility: visible;
+    background-color: black;
+    color: #fff;
+    border-radius: 2px;
+    padding: 2px 4px;
+    position: absolute;
+    z-index: 99999999;
+    font-size: 13px;
+    text-align: center;
+    margin: 0 !important;
+}
+
 //end of navbar
 //footer
 .mf {
@@ -742,6 +936,10 @@ nav li:hover .dropdown-menu {
             }
         }
     }
+}
+
+.font20 {
+    font-size: 20px !important;
 }
 
 .event-name {
@@ -1082,3 +1280,70 @@ figure.hover figcaption {
 }
 
 //end of home
+//destination css stats here
+.fsiz {
+    font-size: 80px;
+    padding: 67px 0;
+    margin: 0;
+}
+
+.m2 {
+    padding: 2%;
+    background: #fff;
+}
+
+.slidershow {
+    padding: 7% 0;
+}
+
+.slidershow .flex-direction-nav .flex-next {
+    right: -39px !important;
+}
+
+.slidershow .flex-direction-nav .flex-prev {
+    left: -61px !important;
+}
+
+.desti .flex-direction-nav {
+    display: block !important;
+}
+
+.yellow_back_color {
+    background-color: #fdd116 !important;
+}
+
+.yellow_back_color .slides {
+    background-color: #FDD116 !important;
+}
+
+.yellow_back_color .flex-control-paging li a {
+    background: #fff !important;
+    width: 11px !important;
+    height: 11px !important;
+}
+
+yellow_back_color .flex-control-paging li a.flex-active {
+    background: #002B7F !important;
+}
+
+.padd15px {
+    padding-bottom: 15px;
+}
+
+.pdt15 {
+    padding-bottom: 30px;
+}
+
+.lodm {
+    padding: 2% 0;
+    a {
+        font-weight: 600;
+        font-size: 16px;
+        color: #fff;
+        background-image: url("../img/btn-bg.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 13px 31px;
+        width: 199px;
+    }
+}

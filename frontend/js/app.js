@@ -34,6 +34,11 @@ myApp.config(function ($stateProvider, $urlRouterProvider, $httpProvider, $locat
             url: "/grid",
             templateUrl: tempateURL,
             controller: 'GridCtrl'
+        })
+        .state('destination', {
+            url: "/destination",
+            templateUrl: tempateURL,
+            controller: 'DestinationCtrl'
         });
     $urlRouterProvider.otherwise("/");
     $locationProvider.html5Mode(isproduction);

@@ -9990,6 +9990,42 @@ header {
   -webkit-transform: translateY(-100%);
           transform: translateY(-100%); }
 
+/* when showing the thing */
+/* ANIMATIONS (FROM ANIMATE) */
+/* flip in */
+@keyframes flipInX {
+  100% {
+    opacity: 1; }
+  0% {
+    -webkit-transform: translate3d(100%, 0, 0) skewX(30deg);
+    transform: translate3d(100%, 0, 0) skewX(30deg);
+    opacity: 0; } }
+
+@-webkit-keyframes flipInX {
+  100% {
+    opacity: 1; }
+  0% {
+    -webkit-transform: translate3d(100%, 0, 0) skewX(30deg);
+    transform: translate3d(100%, 0, 0) skewX(30deg);
+    opacity: 0; } }
+
+/* light speed out */
+@-webkit-keyframes lightSpeedOut {
+  0% {
+    opacity: 1; }
+  100% {
+    -webkit-transform: translate3d(100%, 0, 0) skewX(30deg);
+    transform: translate3d(100%, 0, 0) skewX(30deg);
+    opacity: 0; } }
+
+@keyframes lightSpeedOut {
+  0% {
+    opacity: 1; }
+  100% {
+    -webkit-transform: translate3d(100%, 0, 0) skewX(30deg);
+    transform: translate3d(100%, 0, 0) skewX(30deg);
+    opacity: 0; } }
+
 .a-no_deco {
   color: #0d9dff;
   text-decoration: none; }
@@ -10022,6 +10058,9 @@ header {
 
 .bluecol {
   color: #002b7f !important; }
+
+.bluecol_back {
+  background-color: #002b7f !important; }
 
 .bluecol:hover {
   color: #002b7f !important;
@@ -10078,7 +10117,7 @@ nav li:hover .dropdown-menu {
   background-color: #fdd116 !important; }
 
 .widht {
-  width: 880px !important; }
+  width: 750px !important; }
 
 .marg0 {
   margin: 0 !important; }
@@ -10110,11 +10149,14 @@ nav li:hover .dropdown-menu {
   line-height: 10px !important;
   color: #012B7F; }
 
+.nav_last > a {
+  border-right: 0px; }
+
 .dropdown:hover .colchange {
   color: #fdd116 !important; }
 
 .widht {
-  width: 880px !important; }
+  width: 750px !important; }
 
 .hdn {
   color: #0b358c;
@@ -10165,6 +10207,106 @@ nav li:hover .dropdown-menu {
 
 .curs {
   cursor: default !important; }
+
+/* when hiding the thing */
+.cartadd .ng-hide-add {
+  -webkit-animation: 0.5s lightSpeedOut ease;
+  animation: 0.5s lightSpeedOut ease; }
+
+.cartadd .ng-hide-remove {
+  -webkit-animation: 0.5s flipInX ease;
+  animation: 0.5s flipInX ease; }
+
+.cartadd {
+  position: fixed;
+  right: 1px;
+  z-index: 999;
+  top: 458px; }
+  .cartadd .mycartme {
+    position: fixed;
+    right: -35px;
+    z-index: 10;
+    top: 498px;
+    height: 0; }
+    .cartadd .mycartme button {
+      box-shadow: #002b7f 0 0 2px 0;
+      border-bottom: 0;
+      -webkit-transform: rotate(-90deg);
+      transform: rotate(-90deg); }
+
+.paddmain {
+  padding-bottom: 15px;
+  box-shadow: #002b7f 0 0 1px 0; }
+
+.yellow_back_lightcolor {
+  background-color: #fdd116 !important; }
+
+.patmargin3 {
+  margin-top: 2%; }
+  .patmargin3 .formlabels button {
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    background-image: url("../img/btn-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 3px 25px;
+    border: none;
+    background-color: #fdd116;
+    outline: none; }
+  .patmargin3 .formlabels .form-group {
+    margin-bottom: 6px !important; }
+  .patmargin3 .formlabels label {
+    word-spacing: 2px;
+    font-size: 14px;
+    display: inline-block;
+    width: 32%;
+    float: left;
+    text-align: right;
+    margin-right: 2%; }
+
+.mycart2 {
+  box-shadow: #002b7f 0 -1px 1px -1px;
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  position: absolute;
+  left: -89px;
+  top: 51px;
+  z-index: 9999; }
+  .mycart2 .socialpatt {
+    list-style: none;
+    text-align: center;
+    cursor: pointer;
+    padding: 6px;
+    margin: 0; }
+  .mycart2 li {
+    padding: 6px 55px;
+    font-size: 18px; }
+
+.socialpatt p {
+  font-size: 16px; }
+
+.socialpatt a {
+  color: black !important; }
+
+.inputform {
+  color: #000000 !important;
+  background-color: rgba(255, 255, 255, 0.65) !important;
+  border: none !important;
+  width: 66% !important;
+  height: 27px !important; }
+
+.error {
+  visibility: visible;
+  background-color: black;
+  color: #fff;
+  border-radius: 2px;
+  padding: 2px 4px;
+  position: absolute;
+  z-index: 99999999;
+  font-size: 13px;
+  text-align: center;
+  margin: 0 !important; }
 
 .mf {
   padding: 3% 0; }
@@ -10423,6 +10565,9 @@ nav li:hover .dropdown-menu {
         .events .over-layer .button-holder .ext-detail:focus,
         .eventshome .over-layer .button-holder .ext-detail:focus {
           outline: none; }
+
+.font20 {
+  font-size: 20px !important; }
 
 .event-name {
   position: absolute;
@@ -10698,6 +10843,59 @@ figure.hover figcaption {
 .mim-home {
   margin: 2%; }
 
+.fsiz {
+  font-size: 80px;
+  padding: 67px 0;
+  margin: 0; }
+
+.m2 {
+  padding: 2%;
+  background: #fff; }
+
+.slidershow {
+  padding: 7% 0; }
+
+.slidershow .flex-direction-nav .flex-next {
+  right: -39px !important; }
+
+.slidershow .flex-direction-nav .flex-prev {
+  left: -61px !important; }
+
+.desti .flex-direction-nav {
+  display: block !important; }
+
+.yellow_back_color {
+  background-color: #fdd116 !important; }
+
+.yellow_back_color .slides {
+  background-color: #FDD116 !important; }
+
+.yellow_back_color .flex-control-paging li a {
+  background: #fff !important;
+  width: 11px !important;
+  height: 11px !important; }
+
+yellow_back_color .flex-control-paging li a.flex-active {
+  background: #002B7F !important; }
+
+.padd15px {
+  padding-bottom: 15px; }
+
+.pdt15 {
+  padding-bottom: 30px; }
+
+.lodm {
+  padding: 2% 0; }
+  .lodm a {
+    font-weight: 600;
+    font-size: 16px;
+    color: #fff;
+    background-image: url("../img/btn-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 13px 31px;
+    width: 199px; }
+
 #fancybox-loading,
 .fancybox-close,
 .fancybox-next span,
@@ -10759,6 +10957,15 @@ figure.hover figcaption {
   .himg2 .gobtn {
     padding-left: 1px;
     width: 18%; }
+  .mycart2 {
+    top: 38px; }
+  .mycart2 li {
+    padding: 6px 38px; }
+  .mycart2 li {
+    padding: 6px 53px;
+    font-size: 18px; }
+  .mycart2 {
+    top: 53px; }
   .stp {
     font-size: 18px; }
   .abinfo {
@@ -10789,6 +10996,15 @@ figure.hover figcaption {
     width: 63px; }
   .himg2 .form-control {
     font-size: 16px; }
+  .cartadd {
+    width: 100%;
+    top: 150px;
+    height: auto; }
+  .mycart2 li {
+    padding: 6px 49px;
+    font-size: 19px; }
+  .mycart2 {
+    top: 55px; }
   .stp .form-control {
     font-size: 10px; }
   .footermen {
@@ -10797,7 +11013,7 @@ figure.hover figcaption {
   .event-name {
     line-height: 12px; }
     .event-name span {
-      font-size: 10px; }
+      font-size: 23px; }
   .firstimg .front .event-name {
     bottom: 23px !important; }
   .eventshome img {
@@ -10811,7 +11027,9 @@ figure.hover figcaption {
     float: inherit; }
   .margbotom {
     margin-bottom: 0 !important;
-    font-size: 20px; } }
+    font-size: 20px; }
+  .fsiz {
+    font-size: 73px; } }
 
 @media (max-width: 991px) {
   .hbc .tp {
@@ -10872,6 +11090,19 @@ figure.hover figcaption {
     margin-left: 19%; }
   .himg2 .gobtn {
     font-size: 19px; }
+  .cartadd .mycartme {
+    top: 313px; }
+  .patmargin3 .formlabels label {
+    font-size: 14px;
+    text-align: inherit; }
+  .mycart2 {
+    box-shadow: none;
+    -webkit-transform: inherit;
+    position: static; }
+  .inputform {
+    width: 59% !important;
+    height: 29px !important;
+    font-size: 15px; }
   .mf,
   .textalign {
     text-align: center; }
@@ -10918,7 +11149,7 @@ figure.hover figcaption {
     font-size: 11px;
     width: 90%; }
   .event-name span {
-    font-size: 23px; }
+    font-size: 10px; }
   .shadow-down {
     height: 13%; }
   .m8 .ml {
@@ -10965,7 +11196,17 @@ figure.hover figcaption {
     display: inline-block !important;
     z-index: 2 !important;
     right: 0 !important;
-    margin-bottom: 2%; } }
+    margin-bottom: 2%; }
+  .fsiz {
+    padding: 36px 0;
+    font-size: 64px; }
+  .loadimag,
+  .lodm {
+    padding: 4% 0; }
+    .loadimag a,
+    .lodm a {
+      padding: 13px 52px;
+      font-size: 11px; } }
 
 @media (max-width: 767px) {
   .hbc .tp {
@@ -10985,6 +11226,13 @@ figure.hover figcaption {
     display: none; }
   .headera > a {
     border-right: 0px; }
+  .cartadd {
+    width: 100%;
+    top: inherit;
+    bottom: 0;
+    height: auto; }
+  .mycart2 li {
+    font-size: 14px; }
   .stp .form-control {
     font-size: 15px; }
   .event-name span {
@@ -11014,4 +11262,9 @@ figure.hover figcaption {
     width: 115px; }
   .sado {
     font-size: 9px;
-    padding: 8px 20px; } }
+    padding: 8px 20px; }
+  .fsiz {
+    font-size: 30px; }
+  .firstimg .front,
+  .flexslider .slides img {
+    height: inherit !important; } }

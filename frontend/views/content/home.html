@@ -44,7 +44,7 @@
                     <h1 class="p p11 pregular" ui-sref="destination">POPULAR</h1>
                     <h1 class="p2 p22 theboldfont margleft" ui-sref="destination">DESTIN ATIONS</h1>
                 </div>
-                <div class="col-md-2 col-sm-2 col-xs-6  padng0" ng-repeat="x in popularDestination | limitTo : 4">
+                <div class="col-md-2 col-sm-2 col-xs-6  padng0" ng-repeat="x in home_PopularDestination | limitTo : 4">
                     <div class="eventshome">
                         <a ui-sref="customdestination({id:x._id})">
                             <img alt="{{x.name}}" ng-src="{{x.image}}" class="img-responsive">
@@ -159,16 +159,16 @@
 <!-- END ABOUT -->
 
 <!-- START SLIDER  -->
-<div class="padd padddown homeslid">
+<!-- <div class="padd padddown homeslid">
     <flex-slider flex-slide="data in mySlidesss track by $index" slideshow-speed="2500" slideshow="true" animation-speed="1000"
         class="carousel">
         <li>
             <div class="item">
                 <figure class="mim-home ng-scope">
-                    <a ui-sref="whats-hot"><img alt="The Bachelor Trip" class="img-responsive " ng-src="data.banner"></a>
+                    <a ui-sref="whats-hot"><img alt="The Bachelor Trip" class="img-responsive " ng-src="{{data.banner}}"></a>
                 </figure>
             </div>
         </li>
     </flex-slider>
-</div>
+</div> -->
 <!-- END SLIDER  -->
