@@ -3,6 +3,7 @@ var myApp = angular.module('myApp', [
     'ui.router',
     'pascalprecht.translate',
     'angulartics',
+    'ui.select',
     'angulartics.google.analytics',
     'ui.bootstrap',
     'ngAnimate',
@@ -39,6 +40,16 @@ myApp.config(function ($stateProvider, $urlRouterProvider, $httpProvider, $locat
             url: "/destination",
             templateUrl: tempateURL,
             controller: 'DestinationCtrl'
+        })
+        .state('customdestination', {
+            url: "/customdestination/:id",
+            templateUrl: tempateURL,
+            controller: "CustomDestCtrl"
+        })
+        .state('activity', {
+            url: "/activity",
+            templateUrl: tempateURL,
+            controller: "ActivityCtrl"
         });
     $urlRouterProvider.otherwise("/");
     $locationProvider.html5Mode(isproduction);

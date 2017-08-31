@@ -83,5 +83,14 @@
     .firstimg .front,
     .flexslider .slides img {
         height: inherit !important;
+    } //activity
+    .category .form-group select {
+        width: 100% !important;
+    }
+    .category {
+        background-color: #fdd116; // padding: 20px;
+    }
+    .select-main {
+        width: 100%;
     }
 }

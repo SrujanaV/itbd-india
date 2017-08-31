@@ -1,4 +1,5 @@
  @media (max-width: $screen-md-max) {
+     //max width 1199px
      // screen size 992px
      // Desktop
      //navbar
@@ -99,7 +100,7 @@
      .event-name {
          line-height: 12px;
          span {
-             font-size: 23px;
+             font-size: 13px;
          }
      }
      .firstimg .front .event-name {
@@ -128,5 +129,17 @@
      //destination css starts here
      .fsiz {
          font-size: 73px;
+     } //activity
+     //  .m1 {
+     //      margin-top: 0;
+     //  }
+     .category {
+         margin: 0;
+     }
+     .maxht {
+         //  height: 177px;
+         max-height: 100% !important;
+         max-width: 100%;
+         width: 100%;
      }
  }

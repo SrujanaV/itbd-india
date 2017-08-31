@@ -63,9 +63,7 @@ img.loading {
     opacity: 1;
     width: 32px !important;
     height: auto;
-}
-
-// img {
+} // img {
 //     opacity: 0;
 //     transition: all 300ms ease;
 // }
@@ -90,9 +88,7 @@ footer {
     p {
         margin: 0;
     }
-}
-
-//bootstrap forms
+} //bootstrap forms
 .input-lg,
 .input-group-lg>.form-control,
 .input-group-lg>.input-group-addon,
@@ -126,9 +122,7 @@ footer {
 
 .form-submission {
     min-height: 300px;
-}
-
-//FLEX SLIDER FIXES
+} //FLEX SLIDER FIXES
 .flex-direction-nav {
     a {
         height: auto;
@@ -221,9 +215,7 @@ header {
         // transform: translate3d(100%, 0, 0) skewX(30deg);
         opacity: 0;
     }
-}
-
-// nav bar 
+} // nav bar 
 .a-no_deco {
     color: #0d9dff;
     text-decoration: none;
@@ -448,9 +440,7 @@ nav li:hover .dropdown-menu {
 
 .curs {
     cursor: default!important;
-}
-
-// .img-circle {
+} // .img-circle {
 //     border-radius: 50%;
 // }
 // .a-none {
@@ -627,9 +617,7 @@ nav li:hover .dropdown-menu {
     font-size: 13px;
     text-align: center;
     margin: 0 !important;
-}
-
-//end of navbar
+} //end of navbar
 //footer
 .mf {
     padding: 3% 0;
@@ -740,9 +728,7 @@ nav li:hover .dropdown-menu {
 .footer {
     color: #fdd116;
     border-top: 1px solid #fdd1a4;
-}
-
-//end of footer
+} //end of footer
 //home
 .homeslidr {
     margin-top: -15px;
@@ -1035,9 +1021,7 @@ nav li:hover .dropdown-menu {
     border-right: 20px solid #fdd116;
     padding: 20px;
     position: relative;
-}
-
-//enquiry inside home
+} //enquiry inside home
 .padd {
     padding: 0 6%;
 }
@@ -1202,9 +1186,7 @@ figure.hover figcaption {
         padding-left: 12px;
         outline: none;
     }
-}
-
-//about section
+} //about section
 .aboutin {
     background: #fdd116;
     padding: 5%;
@@ -1253,9 +1235,7 @@ figure.hover figcaption {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     padding: 12px 25px;
-}
-
-//last slider
+} //last slider
 .padddown {
     background: linear-gradient(to bottom, #fdd116 29%, #fdd116 80%, white 80%, white 80%, white 100%, white 100%);
 }
@@ -1277,9 +1257,7 @@ figure.hover figcaption {
 
 .mim-home {
     margin: 2%;
-}
-
-//end of home
+} //end of home
 //destination css stats here
 .fsiz {
     font-size: 80px;
@@ -1346,4 +1324,213 @@ yellow_back_color .flex-control-paging li a.flex-active {
         padding: 13px 31px;
         width: 199px;
     }
+}
+
+.m1 {
+    margin-top: -10px;
+}
+
+.pd50 {
+    padding: 0 50px;
+}
+
+.activi {
+    margin-top: -5%;
+}
+
+.category {
+    background-color: #fdd116;
+    padding: 110px 40px;
+    margin: 0 3%;
+    .form-group .form-control {
+        -webkit-appearance: none;
+        display: inline-block;
+        -moz-appearance: none;
+        appearance: none;
+        background: transparent url("..//img/chevron-down.png") no-repeat right center;
+        background-size: 24px 12px;
+        height: auto;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        font-size: 16px;
+        outline: none;
+        border: 0;
+        border-bottom: 2px solid #002b7f;
+        padding: 5px;
+    }
+}
+
+.select-main {
+    width: 187px;
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+.select-main {
+    i {
+        font-size: 20px;
+        color: #002b7f;
+    }
+}
+
+.display-inline {
+    display: inline-block;
+}
+
+.flipDiv {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+}
+
+.flipDiv figure {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    cursor: pointer;
+}
+
+.flipDiv figure .front {
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.flipDiv figure figcaption {
+    background: black;
+    display: block;
+    position: absolute; // z-index: 999;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.flipDiv figure h2 {
+    font-family: 'Lato';
+    color: #fff;
+    font-size: 20px;
+    text-align: left;
+}
+
+.flipDiv figure p {
+    display: block;
+    font-family: 'Robotor';
+    font-size: 16px;
+    margin: 0;
+    color: #fdd116 !important;
+    text-align: left;
+    padding: 49px 17px 15px;
+}
+
+.flipDiv figure figcaption {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    backface-visibility: hidden;
+    @include transform(rotateY(-180deg)); // -webkit-transform: rotateY(-180deg);
+    // -moz-transform: rotateY(-180deg);
+    // transform: rotateY(-180deg);
+    @include transition(all 0.5s); // -webkit-transition: all 0.5s;
+    // -moz-transition: all 0.5s;
+    // transition: all 0.5s;
+}
+
+.flipDiv .descrip {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.flipDiv figure .front {
+    backface-visibility: hidden;
+    @include transition(all 0.5s); // -webkit-transition: all 0.5s;
+    // -moz-transition: all 0.5s;
+    // transition: all 0.5s;
+}
+
+.maxht {
+    max-height: 100% !important;
+}
+
+.load-more {
+    .button-holder {
+        font-weight: 600;
+        font-size: 16px;
+        color: #fff;
+        background-image: url("../img/btn-bg.png");
+        background-repeat: no-repeat;
+        padding: 10px 40px;
+        width: auto;
+        background-size: 100% 100%;
+        margin: 0 auto;
+        display: inline-block;
+        .ext-detail {
+            background: none;
+            border: 0;
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}
+
+.pdt30 {
+    padding-top: 30px;
+}
+
+.pdb30 {
+    padding-bottom: 30px;
+}
+
+.over-layer {
+    display: none;
+    background-color: rgba(63, 0, 255, 0.55);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    @include transform(translate(-50%,
+    -50%));
+    .button-holder {
+        font-weight: 600;
+        font-size: 14px;
+        color: #002b7f;
+        background-image: url("../img/btn-bg1.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 20px 30px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        @include transform(translate(-50%,
+        -50%));
+        width: 70%;
+        .ext-detail {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            @include transform(translate(-50%,
+            -50%));
+            background: none;
+            border: 0;
+            font-family: pregular;
+            width: 100%;
+            letter-spacing: 2px;
+            &:focus {
+                outline: none;
+            }
+        }
+    }
+}
+
+.act_lab {
+    margin-top: -80px;
+    color: white;
+    font-size: 52px
 }

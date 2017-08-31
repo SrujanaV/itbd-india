@@ -52,57 +52,57 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         }];
 
         $scope.home_PopularDestination = [{
-                id: 1,
+                _id: 1,
                 name: "Amritsar Chandigarh",
                 image: "img/popular/chandigarh.jpg"
             },
             {
-                id: 2,
+                _id: 2,
                 name: "Goa",
                 image: "img/popular/goa.jpg"
             },
             {
-                id: 3,
+                _id: 3,
                 name: "Manali",
                 image: "img/popular/manali.jpg"
             },
             {
-                id: 4,
+                _id: 4,
                 name: "Udaipur",
                 image: "img/popular/udaipur.jpg"
             }
         ];
 
         $scope.popularAttraction = [{
-                id: 1,
+                _id: 1,
                 name: "Delhi Agra",
                 image1: "img/attraction/agra.jpg"
             },
             {
-                id: 2,
+                _id: 2,
                 name: "Darjeeling",
                 image1: "img/attraction/darjeeling.jpg"
             },
             {
-                id: 3,
+                _id: 3,
                 name: "Jaisalmer",
                 image1: "img/attraction/jaisalmer.jpg"
             }, {
-                id: 4,
+                _id: 4,
                 name: "Munnar",
                 image1: "img/attraction/munnar.jpg"
             }
         ];
         $scope.mySlidesss = [{
-                id: 1,
+                _id: 1,
                 banner: "img/india/banner2.jpg"
             },
             {
-                id: 2,
+                _id: 2,
                 banner: "img/india/banner2.jpg"
             },
             {
-                id: 3,
+                _id: 3,
                 banner: "img/india/banner2.jpg"
             }
 
@@ -115,7 +115,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             $(window).scrollTop(0);
 
         });
-        $scope.onlyDest = [
+        $scope.HeaderAllDest = [
             [{
                     _id: "1",
                     name: "Chandigarh"
@@ -244,143 +244,161 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         //     }
         // ]
         $scope.alldest = [{
-                _id: 1,
-                name: "name1",
-                image: "../img/4.jpg"
+                _id: "amritsar",
+                name: "Amritsar Chandigarh",
+                image: "../img/destination/all/amritsar chandigarh/1.jpg"
+            }, {
+                _id: "andaman",
+                name: "Andaman And Nicobar Island",
+                image: "../img/destination/all/andaman and nicobar island/1.jpg"
+            }, {
+                _id: "coorg",
+                name: "Coorg Kabini",
+                image: "../img/destination/all/coorg  kabini/1.jpg"
+            }, {
+                _id: "darjeeling",
+                name: "Darjeeling",
+                image: "../img/destination/all/darjeeling/1.jpg"
+            }, {
+                _id: "delhi_agra",
+                name: "Delhi Agra",
+                image: "../img/destination/all/delhi  agra/1.jpg"
+            }, {
+                _id: "goa",
+                name: "Goa",
+                image: "../img/destination/all/goa/1.jpg"
             }, {
                 _id: 1,
-                name: "name2",
-                image: "../img/4.jpg"
+                name: "Jaipur",
+                image: "../img/destination/all/jaipur/1.jpg"
             }, {
                 _id: 1,
-                name: "name3",
-                image: "../img/4.jpg"
+                name: "Jaisalmer",
+                image: "../img/destination/all/jaisalmer/1.jpg"
             }, {
                 _id: 1,
-                name: "name4",
-                image: "../img/4.jpg"
+                name: "Jammu and Kashmir",
+                image: "../img/destination/all/jammu and Kashmir/1.jpg"
             }, {
                 _id: 1,
-                name: "name5",
-                image: "../img/4.jpg"
+                name: "Kovalam",
+                image: "../img/destination/all/kovalam/1.jpg"
             }, {
                 _id: 1,
-                name: "name6",
-                image: "../img/4.jpg"
+                name: "Kumarakom",
+                image: "../img/destination/all/kumarakom/1.jpg"
             }, {
                 _id: 1,
-                name: "name7",
-                image: "../img/4.jpg"
+                name: "Leh and Ladakh",
+                image: "../img/destination/all/leh and ladakh/1.jpg"
             }, {
                 _id: 1,
-                name: "name8",
-                image: "../img/4.jpg"
+                name: "Madurai",
+                image: "../img/destination/all/madurai/1.jpg"
             }, {
                 _id: 1,
-                name: "name9",
-                image: "../img/4.jpg"
+                name: "Manali",
+                image: "../img/destination/all/manali/1.jpg"
             }, {
                 _id: 1,
-                name: "name10",
-                image: "../img/4.jpg"
+                name: "Munnar",
+                image: "../img/destination/all/munnar/1.jpg"
             }, {
                 _id: 1,
-                name: "name11",
-                image: "../img/4.jpg"
+                name: "Mussourie  Rishikesh",
+                image: "../img/destination/all/mussourie  rishikesh/1.jpg"
             }, {
                 _id: 1,
-                name: "name12",
-                image: "../img/4.jpg"
+                name: "Pondicherry",
+                image: "../img/destination/all/pondicherry/1.jpg"
             }, {
                 _id: 1,
-                name: "name13",
-                image: "../img/4.jpg"
+                name: "Shimla",
+                image: "../img/destination/all/shimla/1.jpg"
             }, {
                 _id: 1,
-                name: "name14",
-                image: "../img/4.jpg"
-            }, {
+                name: "Sikkim  Gangtok",
+                image: "../img/destination/all/sikkim  gangtok/1.jpg"
+            },
+            {
                 _id: 1,
-                name: "name15",
-                image: "../img/4.jpg"
-            }, {
+                name: "Thekkady",
+                image: "../img/destination/all/thekkady/1.jpg"
+            },
+            {
                 _id: 1,
-                name: "name16",
-                image: "../img/4.jpg"
-            }, {
+                name: "Udaipur",
+                image: "../img/destination/all/udaipur/1.jpg"
+            },
+            {
                 _id: 1,
-                name: "name17",
-                image: "../img/4.jpg"
-            }, {
-                _id: 1,
-                name: "name18",
-                image: "../img/4.jpg"
-            }, {
-                _id: 1,
-                name: "name19",
-                image: "../img/4.jpg"
+                name: "Vythiri",
+                image: "../img/destination/all/vythiri/1.jpg"
             }
 
         ];
 
         $scope.six_dest = [{
-            _id: 1,
-            name: "name1",
-            image: "../img/4.jpg"
-        }, {
-            _id: 1,
-            name: "name2",
-            image: "../img/4.jpg"
-        }, {
-            _id: 1,
-            name: "name3",
-            image: "../img/4.jpg"
-        }, {
-            _id: 1,
-            name: "name4",
-            image: "../img/4.jpg"
-        }, {
-            _id: 1,
-            name: "name5",
-            image: "../img/4.jpg"
-        }, {
-            _id: 1,
-            name: "name6",
-            image: "../img/4.jpg"
-        }]
+                _id: 1,
+                name: "Amritsar Chandigarh",
+                image: "../img/destination/all/amritsar chandigarh/1.jpg"
+            }, {
+                _id: 2,
+                name: "Andaman And Nicobar Island",
+                image: "../img/destination/all/andaman and nicobar island/1.jpg"
+            }, {
+                _id: 3,
+                name: "Coorg Kabini",
+                image: "../img/destination/all/coorg  kabini/1.jpg"
+            }, {
+                _id: 4,
+                name: "Darjeeling",
+                image: "../img/destination/all/darjeeling/1.jpg"
+            }, {
+                _id: 5,
+                name: "Delhi Agra",
+                image: "../img/destination/all/delhi  agra/1.jpg"
+            },
+            {
+                _id: 6,
+                name: "Goa",
+                image: "../img/destination/all/goa/1.jpg"
+            }
+        ]
+
         $scope.allDestination = $scope.six_dest;
         $scope.popularDestination = [
             [{
                     _id: "1",
-                    name: "name",
-                    image: "../img/4.jpg"
+                    name: "Goa",
+                    image: "../img/destination/popular/goa.jpg"
                 },
                 {
                     _id: "2",
-                    name: "name2",
-                    image: "../img/4.jpg"
+                    name: "kovalam",
+                    image: "../img/destination/popular/kovalam.jpg"
                 }
             ],
             [{
-                    _id: "1",
-                    name: "name3",
-                    image: "../img/4.jpg"
+                    _id: "3",
+                    name: "Chandigarh",
+                    image: "../img/destination/popular/chandigarh.jpg"
                 },
                 {
-                    _id: "2",
-                    name: "name4",
-                    image: "../img/4.jpg"
+                    _id: "4",
+                    name: "Manali",
+                    image: "../img/destination/popular/manali.jpg"
                 }
             ],
             [{
-                    _id: "1",
-                    name: "name5",
-                    image: "../img/4.jpg"
+                    _id: "5",
+                    name: "Udaipur",
+                    image: "../img/destination/popular/udaipur.jpg"
                 },
                 {
-                    _id: "2",
-                    name: "name6",
-                    image: "../img/4.jpg"
+                    _id: "6",
+                    name: "kumarakom",
+                    image: "../img/destination/popular/kumarakom.jpg"
                 }
             ]
 
@@ -397,6 +415,155 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             $scope.show = false;
             $scope.allDestination = $scope.six_dest;
         }
+    })
+    .controller('CustomDestCtrl', function ($scope, TemplateService, NavigationService, $timeout, $stateParams, toastr, $http) {
+        $scope.template = TemplateService.getHTML("content/customdestination.html");
+        $scope.currentStateId = $stateParams.id;
+        TemplateService.title = $scope.currentStateId; // This is the Title of the Website
+        $scope.navigation = NavigationService.getNavigation();
+        console.log($stateParams);
+
+        // custom destination code here
+    })
+    .controller('ActivityCtrl', function ($scope, TemplateService, NavigationService, $timeout, toastr, $http) {
+        $scope.template = TemplateService.getHTML("content/activity.html");
+        TemplateService.title = "Activity"; // This is the Title of the Website
+        $scope.navigation = NavigationService.getNavigation();
+        $scope.allactiv = [{
+                _id: "amritsar",
+                name: "Amritsar Chandigarh",
+                image: "../img/destination/all/amritsar chandigarh/1.jpg"
+            }, {
+                _id: "andaman",
+                name: "Andaman And Nicobar Island",
+                image: "../img/destination/all/andaman and nicobar island/1.jpg"
+            }, {
+                _id: "coorg",
+                name: "Coorg Kabini",
+                image: "../img/destination/all/coorg  kabini/1.jpg"
+            }, {
+                _id: "darjeeling",
+                name: "Darjeeling",
+                image: "../img/destination/all/darjeeling/1.jpg"
+            }, {
+                _id: "delhi_agra",
+                name: "Delhi Agra",
+                image: "../img/destination/all/delhi  agra/1.jpg"
+            }, {
+                _id: "goa",
+                name: "Goa",
+                image: "../img/destination/all/goa/1.jpg"
+            }, {
+                _id: 1,
+                name: "Jaipur",
+                image: "../img/destination/all/jaipur/1.jpg"
+            }, {
+                _id: 1,
+                name: "Jaisalmer",
+                image: "../img/destination/all/jaisalmer/1.jpg"
+            }, {
+                _id: 1,
+                name: "Jammu and Kashmir",
+                image: "../img/destination/all/jammu and Kashmir/1.jpg"
+            }, {
+                _id: 1,
+                name: "Kovalam",
+                image: "../img/destination/all/kovalam/1.jpg"
+            }, {
+                _id: 1,
+                name: "Kumarakom",
+                image: "../img/destination/all/kumarakom/1.jpg"
+            }, {
+                _id: 1,
+                name: "Leh and Ladakh",
+                image: "../img/destination/all/leh and ladakh/1.jpg"
+            }, {
+                _id: 1,
+                name: "Madurai",
+                image: "../img/destination/all/madurai/1.jpg"
+            }, {
+                _id: 1,
+                name: "Manali",
+                image: "../img/destination/all/manali/1.jpg"
+            }, {
+                _id: 1,
+                name: "Munnar",
+                image: "../img/destination/all/munnar/1.jpg"
+            }, {
+                _id: 1,
+                name: "Mussourie  Rishikesh",
+                image: "../img/destination/all/mussourie  rishikesh/1.jpg"
+            }, {
+                _id: 1,
+                name: "Pondicherry",
+                image: "../img/destination/all/pondicherry/1.jpg"
+            }, {
+                _id: 1,
+                name: "Shimla",
+                image: "../img/destination/all/shimla/1.jpg"
+            }, {
+                _id: 1,
+                name: "Sikkim  Gangtok",
+                image: "../img/destination/all/sikkim  gangtok/1.jpg"
+            },
+            {
+                _id: 1,
+                name: "Thekkady",
+                image: "../img/destination/all/thekkady/1.jpg"
+            },
+            {
+                _id: 1,
+                name: "Udaipur",
+                image: "../img/destination/all/udaipur/1.jpg"
+            },
+            {
+                _id: 1,
+                name: "Vythiri",
+                image: "../img/destination/all/vythiri/1.jpg"
+            }
+
+        ];
+
+        $scope.six_activ = [{
+                _id: 1,
+                name: "Amritsar Chandigarh",
+                image: "../img/destination/all/amritsar chandigarh/1.jpg"
+            }, {
+                _id: 2,
+                name: "Andaman And Nicobar Island",
+                image: "../img/destination/all/andaman and nicobar island/1.jpg"
+            }, {
+                _id: 3,
+                name: "Coorg Kabini",
+                image: "../img/destination/all/coorg  kabini/1.jpg"
+            }, {
+                _id: 4,
+                name: "Darjeeling",
+                image: "../img/destination/all/darjeeling/1.jpg"
+            }, {
+                _id: 5,
+                name: "Delhi Agra",
+                image: "../img/destination/all/delhi  agra/1.jpg"
+            },
+            {
+                _id: 6,
+                name: "Goa",
+                image: "../img/destination/all/goa/1.jpg"
+            }
+        ]
+
+        $scope.allactivity = $scope.six_activ;
+        $scope.viewMoreActiv = function () {
+            $scope.activeshow = true;
+            $scope.allactivity = $scope.allactiv;
+        };
+
+
+        $scope.viewLessActiv = function () {
+            $scope.activeshow = false;
+            $scope.allactivity = $scope.six_activ;
+        }
+
     })
     .controller('GridCtrl', function ($scope, TemplateService, NavigationService, $timeout, toastr, $http) {
         $scope.template = TemplateService.getHTML("content/grid.html");

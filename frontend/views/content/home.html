@@ -115,10 +115,10 @@
                     <form class="himg2" ng-submit="goto(formdata)" ng-init="abc">
                         <label class="pregular labsec">I want to go to</label>
                         <fieldset class="inputtag">
-                            <ui-select ng-model="" ng-change="forSearch($select.selected._id)" class="plan-dark-bold ">
+                            <ui-select ng-model="ctrl.person.selected" ng-change="forSearch($select.selected._id)" class="plan-dark-bold ">
                                 <ui-select-match placeholder="Select Destination">{{$select.selected.name}}</ui-select-match>
-                                <ui-select-choices repeat="item in dropDown | orderBy:'name' | filter: {name:$select.search}">
-                                    <div ng-bind-html="item.name | highlight: $select.search"></div>
+                                <ui-select-choices repeat="item in home_PopularDestination | orderBy:'name' | filter: {name:$select.search}">
+                                    <div ng-bind-html="item.name"></div>
                                 </ui-select-choices>
                             </ui-select>
                         </fieldset>
