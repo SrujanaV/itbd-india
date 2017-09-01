@@ -82,6 +82,9 @@
      }
      .mycart2 {
          top: 55px;
+     }
+     .navbar-default .navbar-nav>li>a {
+         font-size: 10px;
      } //navbar end
      //footer
      .stp .form-control {
@@ -141,5 +144,16 @@
          max-height: 100% !important;
          max-width: 100%;
          width: 100%;
+     }
+     .checkboxrow .checkbox label {
+         font-size: 13px !important;
+         margin-left: 8px !important;
+     } //  .checkboxrow p {
+     //      margin: 0 !important;
+     //      font-size: 15px;
+     //  }
+     .pattmarg3 {
+         margin-top: -39px;
+         margin-bottom: 3%;
      }
  }
