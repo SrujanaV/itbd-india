@@ -46,7 +46,7 @@
          width: 798px !important;
      }
      .cont {
-         width: 155px;
+         width: 250px;
      }
      .hdp {
          width: 280px;
@@ -72,9 +72,12 @@
          font-size: 16px;
      }
      .cartadd {
-         width: 100%;
+         //  width: 100%;
          top: 150px;
          height: auto;
+     }
+     .homecart {
+         top: 59px !important;
      }
      .mycart2 li {
          padding: 6px 49px;
@@ -82,6 +85,7 @@
      }
      .mycart2 {
          top: 55px;
+         left: -76px;
      }
      .navbar-default .navbar-nav>li>a {
          font-size: 10px;
@@ -155,5 +159,12 @@
      .pattmarg3 {
          margin-top: -39px;
          margin-bottom: 3%;
+     }
+     .show-div {
+         width: 825px;
+     }
+     .enqcart {
+         padding: 78px 15px 74px 61px !important;
+         margin-top: -14px !important;
      }
  }

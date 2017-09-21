@@ -83,16 +83,14 @@
          font-size: 19px;
      }
      .cartadd .mycartme {
-         top: 313px;
+         top: 200px;
      }
      .patmargin3 .formlabels label {
          font-size: 14px;
          text-align: inherit;
      }
-     .mycart2 {
-         box-shadow: none;
-         -webkit-transform: inherit;
-         position: static;
+     .homecart {
+         top: 60px !important;
      }
      .inputform {
          width: 59% !important;
@@ -323,5 +321,54 @@
      } //custom destination
      .panelhead .fontpanel {
          font-size: 14px;
+     }
+     .pattsocial2 .socialpatt .fontsizep {
+         font-size: 12px;
+     }
+     .pattform .form-control {
+         border: none !important;
+         font-size: 12px !important;
+         margin-bottom: 8px !important;
+         height: auto !important;
+         padding: 6px 12px !important;
+     }
+     .pattform .btn-submit {
+         border: none !important;
+         font-size: 14px !important;
+         margin-bottom: 0 !important;
+         height: auto !important;
+         padding: 5px 9px !important;
+         width: 100%;
+         background: #002b7f !important;
+         color: #cacaca !important;
+     } //  .pattform {
+     //      margin-top: -26.8%;
+     //      position: absolute;
+     //      right: 41px;
+     //      padding: 15px;
+     //      width: 60%;
+     //      z-index: 1;
+     //  }
+     .pattsocial .socialpatt .fontsizep {
+         font-size: 12px;
+     }
+     .pattsocial .socialpatt {
+         padding: 14px 0;
+         font-size: 7px;
+         width: 122px;
+         margin-left: -85px;
+         margin-bottom: 0;
+     }
+     .pattsocial2 {
+         -webkit-transform: rotate(-90deg);
+         transform: rotate(-90deg);
+         position: absolute;
+         right: -54px;
+         top: 35px;
+         z-index: 11;
+     }
+     .enqcart {
+         padding: 78px 15px 80px 62px !important;
+         margin-top: -14px !important;
      }
  }

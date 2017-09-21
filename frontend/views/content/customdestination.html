@@ -47,13 +47,14 @@
     </div>
 </div>
 
-<div class="eqform eq displaynon">
+<!-- enquiry -->
+<!-- <div class="eqform eq displaynon">
     <div class="container">
         <div class="rotat">
             <div class="row hei">
-                <!-- <div class="show-div" ng-show="enquirybtn" ng-if="!submitEnq"> -->
+
                 <div class="show-div" ng-show="enquirybtn">
-                    <!-- <div class=""> -->
+
                     <div class="col-md-3 col-sm-3">
                         <div class="pattsocial2">
                             <ul class="list-group socialpatt yellow_back_lightcolor ">
@@ -117,26 +118,20 @@
                             </div>
                         </form>
                     </div>
-                    <!-- </div> -->
+
                 </div>
-                <!-- <div ng-if="submitEnq">
-                  <div class="mycart2 enqcart2">
-                      <ul class="list-group socialpatt yellow_back_lightcolor ">
-                          <li ng-click="headerCartOpenUp(); enquirybtn = !enquirybtn" ng-class="{ active: enquirybtn }" class="Roboto black fontsizep white_back_color active" style="">ENQUIRE NOW</li>
-                      </ul>
-                  </div>
-                  <div class="cartsum enqcart" >Thank you for submitting the details. We'll get in touch with you soon.</div>
-                </div> -->
+
             </div>
         </div>
-        <div class="pattsocial " ng-hide="enquirybtn || mycart10">
+        <div class="pattsocial " ng-hide="enquirybtn">
             <ul class="list-group socialpatt yellow_back_lightcolor">
                 <li ng-click="headerCartOpen(); enquirybtn = !enquirybtn" ng-class="{ active: enquirybtn }" class="Roboto black fontsizep">ENQUIRE NOW
                 </li>
             </ul>
         </div>
     </div>
-</div>
+</div> -->
+
 
 <div class="whatsmain pad10">
     <div class="container ">
@@ -154,8 +149,8 @@
                         <div uib-accordion-group is-open="accordian[$index].isFirstOpen" class="panel-default panelacor" ng-class="{'yellow_back_color': accordian[$index].isFirstOpen, '': !accordian[$index].isFirstOpen}"
                             ng-repeat="data in getCustom.accordion">
                             <uib-accordion-heading>
-                                <div class="fontpanel Pregular bluecol" ng-class="{'yellow_back_color': accordian[$index].isFirstOpen, '': !accordian[$index].isFirstOpen}">
-                                    <img alt="{{}}" title="{{}" ng-src="{{data.icon}}" class="image_title">{{data.heading}}
+                                <div class="fontpanel Pregular bluecol a-no_deco" ng-class="{'yellow_back_color': accordian[$index].isFirstOpen, '': !accordian[$index].isFirstOpen}">
+                                    <img alt="{{}}" title="{{}" ng-src="{{data.icon}}" class="image_title a-no_deco"> {{data.heading}}
                                     <i class="pull-right fa " ng-class="{'fa fa-minus':  accordian[$index].isFirstOpen, 'fa fa-plus': !accordian[$index].isFirstOpen}"></i>
                                 </div>
                             </uib-accordion-heading>
@@ -166,7 +161,7 @@
                                     <li class="Robotor bluecol">
                                         <strong class="padding15">{{data.content}}</strong>
                                     </li>
-                                    <p class="Robotor" ng-bind-html="data.content"></p>
+                                    <!-- <p class="Robotor" ng-bind-html="data.content"></p> -->
                                 </ul>
                                 <!-- <div class="row padding30">
                                     <div class="col-md-3 col-sm-3 col-xs-3  pading0" ng-repeat="image in x.images">
@@ -179,20 +174,7 @@
                         </div>
                     </uib-accordion>
                 </div>
-                <uib-accordion close-other="true">
-                    <div uib-accordion-group>
-                        <uib-accodion-heading>
-                            click
-                            <uib-accordion-heading>
-                                hello
-                    </div>
-                    <div uib-accordion-group>
-                        <uib-accodion-heading>
-                            click
-                            <uib-accordion-heading>
-                                hello
-                    </div>
-                </uib-accordion>
+
 
                 <div class="row pregular">
 
