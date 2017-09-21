@@ -6,7 +6,7 @@ var myApp = angular.module('myApp', [
     'ui.select',
     'angulartics.google.analytics',
     'ui.bootstrap',
-    'ngAnimate',
+    // 'ngAnimate',
     'ngSanitize',
     'angular-flexslider',
     'ui.swiper',

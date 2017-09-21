@@ -63,7 +63,9 @@ img.loading {
     opacity: 1;
     width: 32px !important;
     height: auto;
-} // img {
+}
+
+// img {
 //     opacity: 0;
 //     transition: all 300ms ease;
 // }
@@ -275,6 +277,10 @@ header {
     color: #012B7F;
 }
 
+.navbar-brand {
+    padding-top: 0px;
+}
+
 // nav bar 
 .a-no_deco {
     color: #0d9dff;
@@ -474,11 +480,8 @@ nav li:hover .dropdown-menu {
 }
 
 .himg {
-    margin-top: -6px;
-    width: 66px;
-    background-color: #fff;
-    box-shadow: 0 0 0 5px #ffffff;
-    position: absolute;
+    width: 160px;
+    float: left;
     z-index: 9999;
 }
 
