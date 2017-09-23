@@ -1,0 +1,13 @@
+<div class="circle" ng-click="closeModal();"><i class="fa fa-times" aria-hidden="true"></i></div>
+<div class="modal-body" id="modal-body">
+    <!-- <uib-carousel active="active" interval="myInterval">
+        <uib-slide ng-repeat="slide in getActivity track by $index">
+            <img ng-src="{{slide.image}}">
+        </uib-slide>
+    </uib-carousel>  -->
+    <flex-slider flex-slide="slide in getCustom.images track by $index" start-at=number>
+        <li>
+            <img ng-src="{{slide.image}}">
+        </li>
+    </flex-slider>
+</div>

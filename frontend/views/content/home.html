@@ -44,13 +44,13 @@
                     <h1 class="p p11 pregular" ui-sref="destination">POPULAR</h1>
                     <h1 class="p2 p22 theboldfont margleft" ui-sref="destination">DESTIN ATIONS</h1>
                 </div>
-                <div class="col-md-2 col-sm-2 col-xs-6  padng0" ng-repeat="x in home_PopularDestination | limitTo : 4">
+                <div class="col-md-2 col-sm-2 col-xs-6 padng0" ng-repeat="x in home_PopularDestination">
                     <div class="eventshome">
-                        <a ui-sref="customdestination({id:x._id})">
+                        <a ui-sref="customdestination({id:x.name})">
                             <img alt="{{x.name}}" ng-src="{{x.image}}" class="img-responsive">
                             <div class="shadow-down"></div>
                             <div class="event-name">
-                                <span>{{x.name}}</span>
+                                <span class="text-capitalize">{{x.name}}</span>
                             </div>
                             <div class="over-layer text-center">
                                 <div class="hoverimg">
@@ -71,7 +71,7 @@
             </div>
             <div class="row">
                 <div class="col-md-2 col-sm-2 col-xs-6 padng0" ng-repeat="x in popularAttraction | limitTo : 4">
-                    <div class="eventshome" ui-sref="customdestination({id:x.destination})">
+                    <div class="eventshome" ui-sref="customdestination({id:x.name})">
                         <img alt="{{x.name}}" title="{{x.name}}" src="{{x.image1}}" class="img-responsive">
                         <div class="shadow-down"></div>
                         <div class="event-name">
@@ -115,9 +115,9 @@
                     <form class="himg2" ng-submit="goto(formdata)" ng-init="abc">
                         <label class="pregular labsec">I want to go to</label>
                         <fieldset class="inputtag">
-                            <ui-select ng-model="ctrl.person.selected" ng-change="forSearch($select.selected._id)" class="plan-dark-bold ">
+                            <ui-select ng-model="ctrl.person.selected" ng-change="search($select.selected.name)" class="plan-dark-bold ">
                                 <ui-select-match placeholder="Select Destination">{{$select.selected.name}}</ui-select-match>
-                                <ui-select-choices repeat="item in home_PopularDestination | orderBy:'name' | filter: {name:$select.search}">
+                                <ui-select-choices repeat="item in allplaces | orderBy:'name' | filter: {name:$select.search}">
                                     <div ng-bind-html="item.name"></div>
                                 </ui-select-choices>
                             </ui-select>
@@ -125,7 +125,7 @@
                         <!-- <select class="form-control plan-dark-bold " ng-model="selected_id" ng-options="o._id as o.name for o in dropDown" ng-change="selectDesti(selected_id);">
                             <option  class="homescrollbar" value="">Select Destination</option>
                           </select> -->
-                        <button type="submit" class="gobtn" ng-click="goOn(thisId)">GO</button>
+                        <button type="submit" class="gobtn" ng-click="gotoFun()">GO</button>
                     </form>
                 </div>
             </div>
@@ -153,7 +153,6 @@
                 to parties across the <strong class="abinfo pregular bluecol">globe</strong>, crazy adrenaline pumping adventures you've been wanting to try out and some of naughty affairs you wouldn't mind indulging in. The best of experiences offered
                 globally, handpicked and ready to explore, just for you. So sit back, relax and let the professionals handle your <strong class="abinfo pregular bluecol">Bachelor Trip planning!</strong></p> -->
         </div>
-        <P class="sado"><a class="whit_color" ui-sref="aboutus">KNOW THE TEAM</a></P>
     </div>
 </div>
 <!-- END ABOUT -->

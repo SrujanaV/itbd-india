@@ -154,15 +154,6 @@ header {
     transform: translateY(-100%);
 }
 
-
-/* when showing the thing */
-
-
-/* ANIMATIONS (FROM ANIMATE) */
-
-
-/* flip in */
-
 @keyframes flipInX2 {
     100% {
         opacity: 1;
@@ -921,7 +912,7 @@ ui-select-bootstrap .ui-select-choices-row>a {
 
 .homeslidr .flex-control-nav {
     position: absolute;
-    bottom: 17px !important;
+    bottom: 40px !important;
     text-align: center !important;
     display: inline-block !important;
     z-index: 2 !important;
@@ -1248,6 +1239,20 @@ figure .links {
     display: block;
 }
 
+.circle {
+    border: solid 2px #fdd116;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 50%;
+    text-align: center;
+    top: -15px;
+    right: -15px;
+    font-size: 20px;
+    color: #fdd116;
+    cursor: pointer;
+}
+
 .inputtag {
     display: inline;
     width: 81%;
@@ -1265,6 +1270,7 @@ figure {
     padding: 0;
     color: #fff;
     margin: 0;
+    cursor: pointer;
 }
 
 figure:hover figcaption {
@@ -1535,6 +1541,19 @@ yellow_back_color .flex-control-paging li a.flex-active {
     }
 }
 
+.categoryup {
+    background-color: #fdd116;
+    padding: 20px 40px 40px;
+    margin: 0 4%;
+    h1 {
+        font-size: 60px;
+        margin: 6% 0 2%;
+        display: inline-block;
+        width: 50%;
+        line-height: 46px;
+    }
+}
+
 .select-main {
     width: 187px;
     font-size: 18px;
@@ -1571,6 +1590,7 @@ yellow_back_color .flex-control-paging li a.flex-active {
     display: block;
     position: relative;
     z-index: 1;
+    cursor: pointer;
 }
 
 .flipDiv figure figcaption {

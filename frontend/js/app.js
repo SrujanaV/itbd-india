@@ -50,6 +50,11 @@ myApp.config(function ($stateProvider, $urlRouterProvider, $httpProvider, $locat
             url: "/activity",
             templateUrl: tempateURL,
             controller: "ActivityCtrl"
+        })
+        .state('whats-hot', {
+            url: "/whats-hot",
+            templateUrl: tempateURL,
+            controller: 'WhatsHotCtrl'
         });
     $urlRouterProvider.otherwise("/");
     $locationProvider.html5Mode(isproduction);

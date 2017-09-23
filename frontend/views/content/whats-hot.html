@@ -1,0 +1,74 @@
+<!--  START BANNER -->
+<div class="container">
+    <div class="wts">
+        <flex-slider id="homeslider" flex-slide="s in mySlidesss" slideshow-speed="2500" slideshow="true" animation-speed="1000"
+            class="m1 carousel">
+            <li>
+                <img alt="In time by Design" class="img-responsive" ng-src="{{s.banner}}">
+            </li>
+        </flex-slider>
+    </div>
+</div>
+<!-- END BANNER  -->
+<!--START UPCOMING PAGE   -->
+<div class="container">
+    <div class="categoryup">
+        <div class="row">
+            <h1 class="theboldfont whit_color">BACHELOR</h1>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12 padd15px" ng-repeat="data in allDestination">
+                    <div class="events">
+                        <img alt="In time by Design " title="In time by Design" ng-src="{{data.image}}" alt="" class="img-responsive">
+                        <!-- <div class="shadow-down2"></div>
+                        <div class="event-name2">
+                            <h2 class="bluecol eventh2 pregular">{{data.name}}</h2>
+                            <hr class="eventhr">
+                            <p class="bluecol eventp Roboto">{{data.fromDate |date:'dd'}}-{{data.toDate |date:'dd MMMM yyyy'}}</p>
+                            <p class="bluecol eventp Roboto">{{data.location}}</p>
+                        </div> -->
+                        <a>
+                            <div class="over-layer2 text-center">
+                                <!-- <div class="hoverhold">
+                                    <h2 class="bluecol eventh2 pregular">{{data.name}}</h2>
+                                    <hr class="eventhr">
+                                    <p class="bluecol eventp Roboto">{{data.fromDate |date:'dd'}}-{{data.toDate |date:'dd MMMM yyyy'}}</p>
+                                    <p class="bluecol eventp Roboto">{{data.location}}</p>
+                                    <button class="morebutton"><a ui-sref="whats-hot-more({id:data._id})" class="whit_color">KNOW MORE</a></button>
+                                </div> -->
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <h1 class="theboldfont whit_color">BACHELORETTE</h1>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 col-xs-12 padd15px" ng-repeat="data in allDestination1">
+                    <div class="events">
+                        <img alt="In time by Design " title="In time by Design " ng-src="{{data.image}}" alt="" class="img-responsive">
+                        <!-- <div class="shadow-down2"></div>
+                        <div class="event-name2">
+                            <h2 class="bluecol eventh2 pregular">{{data.name}}</h2>
+                            <hr class="eventhr">
+                            <p class="bluecol eventp Roboto">{{data.fromDate |date:'dd'}}-{{data.toDate |date:'dd MMMM yyyy'}}</p>
+                            <p class="bluecol eventp Roboto">{{data.location}}</p>
+                        </div> -->
+                        <a>
+                            <div class="over-layer2 text-center">
+                                <!-- <div class="hoverhold">
+                                    <h2 class="bluecol eventh2 pregular">{{data.name}}</h2>
+                                    <hr class="eventhr">
+                                    <p class="bluecol eventp Roboto">{{data.fromDate |date:'dd'}}-{{data.toDate |date:'dd MMMM yyyy'}}</p>
+                                    <p class="bluecol eventp Roboto">{{data.location}}</p>
+                                    <button class="morebutton"><a ui-sref="whats-hot-more({id:data._id})" class="whit_color">KNOW MORE</a></button>
+                            </div> -->
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END UPCOMING PAHGE  -->
