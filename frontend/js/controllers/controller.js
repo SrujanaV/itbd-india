@@ -1213,28 +1213,22 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         ];
 
         $scope.six_activ = [{
-                _id: 1,
                 name: "Amritsar Chandigarh",
                 image: "img/india/amritsar_chandigarh/1.jpg"
             }, {
-                _id: 2,
                 name: "Andaman And Nicobar Island",
                 image: "img/india/andaman and nicobar island/1.jpg"
             }, {
-                _id: 3,
                 name: "Coorg Kabini",
                 image: "img/india/coorg  kabini/1.jpg"
             }, {
-                _id: 4,
                 name: "Darjeeling",
                 image: "img/india/darjeeling/1.jpg"
             }, {
-                _id: 5,
                 name: "Delhi Agra",
                 image: "img/india/delhi agra/1.jpg"
             },
             {
-                _id: 6,
                 name: "Goa",
                 image: "img/india/goa/1.jpg"
             }

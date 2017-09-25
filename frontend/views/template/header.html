@@ -12,7 +12,7 @@
                             <div class="dropdown-menu widht marg0">
                                 <div class="cont" ng-repeat="data in HeaderAllDest">
                                     <div class="des" ng-repeat="n in data">
-                                        <a ui-sref="customdestination({id:n._id})">{{n.name}}</a>
+                                        <a ui-sref="customdestination({id:n.name})">{{n.name}}</a>
                                     </div>
                                 </div>
                                 <!-- <div class="destin">
@@ -21,7 +21,7 @@
                             </div>
                         </li>
                         <li class="pregular"><a class="bluecol nav_last" ui-sref="activity">ACTIVITIES</a></li>
-                        <li class="pregular"><a class="bluecol" ui-sref="whats-hot">WHAT'S HOT</a></li>
+                        <!-- <li class="pregular"><a class="bluecol" ui-sref="whats-hot">WHAT'S HOT</a></li> -->
                         <!-- <li class="pregular"><a class="bluecol" ui-sref="accessories">ACCESSORIES</a></li> -->
 
 
@@ -36,7 +36,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-                <a class="navbar-brand" ui-sref="home"><img alt="tbt" title="tbt" src="img/logo/logo.png" class="img-responsive himg" style="display:inline"></a>
+                <a class="navbar-brand" ui-sref="home"><img alt="itbd_india" title="itbd_india" src="img/logo/logo.png" class="img-responsive himg" style="display:inline"></a>
                 <!-- <a ui-sref="home" class="a-no_deco">
                     <p class="hdp bluecol pregular">THE BACHELOR TRIP</p>
                 </a> -->
@@ -58,8 +58,8 @@
                             </div> -->
                         </div>
                     </li>
-                    <li class="headera"><a class="bluecol" ui-sref="activity">ACTIVITIES</a></li>
-                    <li class="headera  nav_last"><a class="bluecol" ui-sref="whats-hot">WHAT'S HOT</a></li>
+                    <li class="headera nav_last"><a class="bluecol" ui-sref="activity">ACTIVITIES</a></li>
+                    <!-- <li class="headera "><a class="bluecol" ui-sref="whats-hot">WHAT'S HOT</a></li> -->
                     <!-- <li class="headera"><a class="bluecol" ui-sref="accessories">ACCESSORIES</a></li> -->
 
                 </ul>
@@ -139,8 +139,7 @@
                 <div class="whatsmarg4">
                     <div class="mycart2">
                         <ul class="list-group socialpatt yellow_back_lightcolor ">
-                            <li ng-click="headerCartOpenUp(); mycart = !mycart" ng-class="{ active: mycart }" class="Roboto black fontsizep white_back_color active"
-                                style="">Enquiry</li>
+                            <li ng-click="headerCartOpenUp(); mycart = !mycart" ng-class="{ active: mycart }" class="Roboto black fontsizep white_back_color active">Enquiry</li>
                         </ul>
                     </div>
                     <div class="row textalign mgn-left-10 " ng-hide="submitCart">
