@@ -293,7 +293,7 @@ header {
     .tp {
         font-size: 11px;
         text-align: center;
-        padding-left: 130px;
+        padding-left: 210px;
         color: #000;
         li {
             padding: 24px 0;
@@ -464,7 +464,6 @@ nav li:hover .dropdown-menu {
         text-align: center;
     }
     a {
-        color: #fdd116;
         font-size: 12px;
         padding: 0 1px;
     }
@@ -498,6 +497,10 @@ nav li:hover .dropdown-menu {
     font-size: 13px;
     font-weight: 700;
     padding-left: 2px;
+}
+
+.ui-select-bootstrap .ui-select-toggle>.caret {
+    display: none;
 }
 
 .curs {
@@ -581,7 +584,7 @@ nav li:hover .dropdown-menu {
     top: 458px;
     .mycartme {
         position: fixed;
-        right: -35px;
+        right: -60px;
         z-index: 10; // top: 498px;
         height: 0;
         button {
@@ -657,8 +660,8 @@ nav li:hover .dropdown-menu {
     // box-shadow: #002b7f 0 -1px 1px -1px;
     @include transform(rotate(-90deg)); // -webkit-transform: rotate(-90deg);
     position: absolute;
-    left: -83px;
-    top: 51px;
+    left: -94px;
+    top: 57px;
     z-index: 9999;
     .socialpatt {
         list-style: none;
@@ -668,7 +671,7 @@ nav li:hover .dropdown-menu {
         margin: 0;
     }
     li {
-        padding: 3px 58px;
+        padding: 3px 30px;
         font-size: 18px;
     }
 }
@@ -877,7 +880,6 @@ ui-select-bootstrap .ui-select-choices-row>a {
 
 .footer {
     color: #fdd116;
-    border-top: 1px solid #fdd1a4;
 } //end of footer
 //home
 .homeslidr {
@@ -1342,7 +1344,7 @@ figure.hover figcaption {
         -webkit-appearance: none;
         -moz-appearance: none;
         appearance: none;
-        background: transparent url("../img/Vector-Smart-Object.png") no-repeat right center;
+        background: transparent url("../img/vector.png") no-repeat right center;
         border-bottom: 4px solid #fdd116;
         font-size: 23px;
         color: #fdd116 !important;
@@ -1520,7 +1522,7 @@ yellow_back_color .flex-control-paging li a.flex-active {
 
 .category {
     background-color: #fdd116;
-    padding: 110px 40px;
+    padding: 27px 40px;
     margin: 0 3%;
     .form-group .form-control {
         -webkit-appearance: none;
@@ -1765,8 +1767,18 @@ yellow_back_color .flex-control-paging li a.flex-active {
     .margin3 {
         margin-top: 3%;
     }
-    .pattmarg2 {
-        padding: 2%;
+}
+
+.pattmarg2 {
+    padding: 2%;
+}
+
+.pattayamarg4 {
+    margin: 0% 5% 1%;
+    padding: 3% 8%;
+    p {
+        font-size: 16px;
+        margin: 0;
     }
 }
 
