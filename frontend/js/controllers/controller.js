@@ -371,10 +371,6 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                             "image": "img/india/amritsar_chandigarh/3.jpg",
                         },
                         {
-                            "number": 3,
-                            "image": "img/india/amritsar_chandigarh/4.jpg",
-                        },
-                        {
                             "number": 4,
                             "image": "img/india/amritsar_chandigarh/5.jpg",
                         },
