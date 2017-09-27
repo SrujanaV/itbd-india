@@ -1163,7 +1163,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             $scope.number = number;
             $scope.galleryImage = $uibModal.open({
                 animation: true,
-                templateUrl: "frontend/views/modal/gallery.html",
+                templateUrl: "views/modal/gallery.html",
                 scope: $scope,
                 // windowClass: 'modalWidth',
                 backdropClass: 'black-drop'
