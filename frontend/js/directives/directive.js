@@ -18,6 +18,7 @@ myApp.directive('img', function ($compile, $parse) {
         };
     })
 
+
     .directive('hideOnScroll', function ($document) {
         return {
             restrict: 'EA',

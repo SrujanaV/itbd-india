@@ -355,7 +355,9 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             case "Amritsar Chandigarh":
                 //code
                 $scope.getCustom = {
-                    banner: "img/india/amritsar_chandigarh/banner.jpg",
+                    "banner": "img/india/amritsar_chandigarh/banner.jpg",
+                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
+                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
                     images: [{
                             "number": 0,
                             "image": "img/india/amritsar_chandigarh/1.jpg",
@@ -389,7 +391,9 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 break;
             case "Andaman And Nicobar Island":
                 $scope.getCustom = {
-                    banner: "img/india/andaman and nicobar island/banner.jpg",
+                    "banner": "img/india/andaman and nicobar island/banner.jpg",
+                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
+                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
                     images: [{
                             "number": 0,
                             "image": "img/india/andaman and nicobar island/1.jpg",
@@ -411,7 +415,9 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 break;
             case "Coorg Kabini":
                 $scope.getCustom = {
-                    banner: "img/india/coorg  kabini/banner.jpg",
+                    "banner": "img/india/coorg  kabini/banner.jpg",
+                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
+                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
                     images: [{
                             "number": 0,
                             "image": "img/india/coorg  kabini/1.jpg",
@@ -440,7 +446,9 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 break;
             case "Darjeeling":
                 $scope.getCustom = {
-                    banner: "img/india/darjeeling/banner.jpg",
+                    "banner": "img/india/darjeeling/banner.jpg",
+                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
+                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
                     images: [{
                             "number": 0,
                             "image": "img/india/darjeeling/1.jpg",
@@ -472,7 +480,9 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 break;
             case "Delhi Agra":
                 $scope.getCustom = {
-                    banner: "img/india/delhi agra/banner.jpg",
+                    "banner": "img/india/delhi agra/banner.jpg",
+                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
+                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
                     images: [{
                             "number": 0,
                             "image": "img/india/delhi agra/1.jpg",
@@ -525,7 +535,9 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 break;
             case "Goa":
                 $scope.getCustom = {
-                    banner: "img/india/goa/banner.jpg",
+                    "banner": "img/india/goa/banner.jpg",
+                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
+                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
                     images: [{
                             "number": 0,
                             "image": "img/india/goa/1.jpg",
@@ -560,7 +572,9 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 break;
             case "Jaipur":
                 $scope.getCustom = {
-                    banner: "img/india/jaipur/banner.jpg",
+                    "banner": "img/india/jaipur/banner.jpg",
+                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
+                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
                     images: [{
                             "number": 0,
                             "image": "img/india/jaipur/1.jpg",
@@ -595,7 +609,9 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 break;
             case "Jaisalmer":
                 $scope.getCustom = {
-                    banner: "img/india/jaisalmer/banner.jpg",
+                    "banner": "img/india/jaisalmer/banner.jpg",
+                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
+                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
                     images: [{
                             "number": 0,
                             "image": "img/india/jaisalmer/1.jpg",
@@ -624,7 +640,9 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 break;
             case "Jammu and Kashmir":
                 $scope.getCustom = {
-                    banner: "img/india/jammu and Kashmir/banner.jpg",
+                    "banner": "img/india/jammu and Kashmir/banner.jpg",
+                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
+                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
                     images: [{
                             "number": 0,
                             "image": "img/india/jammu and Kashmir/1.jpg",
@@ -667,7 +685,9 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 break;
             case "Kovalam":
                 $scope.getCustom = {
-                    banner: "img/india/kovalam/banner.jpg",
+                    "banner": "img/india/kovalam/banner.jpg",
+                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
+                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
                     images: [{
                             "number": 0,
                             "image": "img/india/kovalam/1.jpg",
@@ -689,7 +709,9 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 break;
             case "Kumarakom":
                 $scope.getCustom = {
-                    banner: "img/india/kumarakom/banner.jpg",
+                    "banner": "img/india/kumarakom/banner.jpg",
+                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
+                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
                     images: [{
                             "number": 0,
                             "image": "img/india/kumarakom/1.jpg",
@@ -714,7 +736,9 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 break;
             case "Leh and Ladakh":
                 $scope.getCustom = {
-                    banner: "img/india/leh and ladakh/banner.jpg",
+                    "banner": "img/india/leh and ladakh/banner.jpg",
+                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
+                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
                     images: [{
                             "number": 0,
                             "image": "img/india/leh and ladakh/1.jpg",
@@ -749,7 +773,9 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 break;
             case "Madurai":
                 $scope.getCustom = {
-                    banner: "img/india/madurai/banner.jpg",
+                    "banner": "img/india/madurai/banner.jpg",
+                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
+                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
                     images: [{
                             "number": 0,
                             "image": "img/india/madurai/1.jpg",
@@ -780,7 +806,9 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 break;
             case "Manali":
                 $scope.getCustom = {
-                    banner: "img/india/manali/banner.jpg",
+                    "banner": "img/india/manali/banner.jpg",
+                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
+                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
                     images: [{
                             "number": 0,
                             "image": "img/india/manali/1.jpg",
@@ -815,7 +843,9 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 break;
             case "Munnar":
                 $scope.getCustom = {
-                    banner: "img/india/munnar/banner.jpg",
+                    "banner": "img/india/munnar/banner.jpg",
+                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
+                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
                     images: [{
                             "number": 0,
                             "image": "img/india/munnar/1.jpg",
@@ -839,7 +869,9 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 break;
             case "Mussourie Rishikesh":
                 $scope.getCustom = {
-                    banner: "img/india/mussourie rishikesh/banner.jpg",
+                    "banner": "img/india/mussourie rishikesh/banner.jpg",
+                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
+                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
                     images: [{
                             "number": 0,
                             "image": "img/india/mussourie rishikesh/1.jpg",
@@ -881,7 +913,9 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 break;
             case "Pondicherry":
                 $scope.getCustom = {
-                    banner: "img/india/pondicherry/banner.jpg",
+                    "banner": "img/india/pondicherry/banner.jpg",
+                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
+                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
                     images: [{
                             "number": 0,
                             "image": "img/india/pondicherry/1.jpg",
@@ -905,7 +939,9 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 break;
             case "Shimla":
                 $scope.getCustom = {
-                    banner: "img/india/shimla/banner.jpg",
+                    "banner": "img/india/shimla/banner.jpg",
+                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
+                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
                     images: [{
                             "number": 0,
                             "image": "img/india/shimla/1.jpg",
@@ -949,7 +985,9 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 break;
             case "Sikkim Gangtok":
                 $scope.getCustom = {
-                    banner: "img/india/sikkim gangtok/banner.jpg",
+                    "banner": "img/india/sikkim gangtok/banner.jpg",
+                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
+                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
                     images: [{
                             "number": 0,
                             "image": "img/india/sikkim gangtok/1.jpg",
@@ -990,7 +1028,9 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 break;
             case "Thekkady":
                 $scope.getCustom = {
-                    banner: "img/india/thekkady/banner.jpg",
+                    "banner": "img/india/thekkady/banner.jpg",
+                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
+                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
                     images: [{
                             "number": 0,
                             "image": "img/india/thekkady/1.jpg",
@@ -1011,7 +1051,9 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 break;
             case "Udaipur":
                 $scope.getCustom = {
-                    banner: "img/india/udaipur/banner.jpg",
+                    "banner": "img/india/udaipur/banner.jpg",
+                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
+                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
                     images: [{
                             "number": 0,
                             "image": "img/india/udaipur/1.jpg",
@@ -1042,7 +1084,9 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 break;
             case "Vythiri":
                 $scope.getCustom = {
-                    banner: "img/india/vythiri/banner.jpg",
+                    "banner": "img/india/vythiri/banner.jpg",
+                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
+                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
                     images: [{
                             "number": 0,
                             "image": "img/india/vythiri/1.jpg",
@@ -1139,112 +1183,33 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         TemplateService.title = "Activities"; // This is the Title of the Website
         $scope.navigation = NavigationService.getNavigation();
         $scope.allactiv = [{
-                name: "Amritsar Chandigarh",
-                image: "img/india/amritsar_chandigarh/1.jpg"
-            }, {
-                name: "Andaman And Nicobar Island",
-                image: "img/india/andaman and nicobar island/1.jpg"
-            }, {
-                name: "Coorg Kabini",
-                image: "img/india/coorg  kabini/1.jpg"
-            }, {
-                name: "Darjeeling",
-                image: "img/india/darjeeling/1.jpg"
-            }, {
-                name: "Delhi Agra",
-                image: "img/india/delhi agra/1.jpg"
-            }, {
-                name: "Goa",
-                image: "img/india/goa/1.jpg"
-            }, {
-                name: "Jaipur",
-                image: "img/india/jaipur/1.jpg"
-            }, {
-                name: "Jaisalmer",
-                image: "img/india/jaisalmer/1.jpg"
-            }, {
-                name: "Jammu and Kashmir",
-                image: "img/india/jammu and Kashmir/1.jpg"
-            }, {
-                name: "Kovalam",
-                image: "img/india/kovalam/1.jpg"
-            }, {
-                name: "Kumarakom",
-                image: "img/india/kumarakom/1.jpg"
-            }, {
-                name: "Leh and Ladakh",
-                image: "img/india/leh and ladakh/1.jpg"
-            }, {
-                name: "Madurai",
-                image: "img/india/madurai/1.jpg"
-            }, {
-                name: "Manali",
-                image: "img/india/manali/1.jpg"
-            }, {
-                name: "Munnar",
-                image: "img/india/munnar/1.jpg"
-            }, {
-                name: "Mussourie  Rishikesh",
-                image: "img/india/mussourie rishikesh/1.jpg"
-            }, {
-                name: "Pondicherry",
-                image: "img/india/pondicherry/1.jpg"
-            }, {
-                name: "Shimla",
-                image: "img/india/shimla/1.jpg"
-            }, {
-                _id: 1,
-                name: "Sikkim Gangtok",
-                image: "img/india/sikkim gangtok/1.jpg"
-            },
-            {
-                name: "Thekkady",
-                image: "img/india/thekkady/1.jpg"
-            },
-            {
-                name: "Udaipur",
-                image: "img/india/udaipur/1.jpg"
-            },
-            {
-                name: "Vythiri",
-                image: "img/india/vythiri/1.jpg"
-            }
-
-        ];
-
-        $scope.six_activ = [{
-                name: "Amritsar Chandigarh",
-                image: "img/india/amritsar_chandigarh/1.jpg"
-            }, {
-                name: "Andaman And Nicobar Island",
-                image: "img/india/andaman and nicobar island/1.jpg"
-            }, {
-                name: "Coorg Kabini",
-                image: "img/india/coorg  kabini/1.jpg"
-            }, {
-                name: "Darjeeling",
-                image: "img/india/darjeeling/1.jpg"
-            }, {
-                name: "Delhi Agra",
-                image: "img/india/delhi agra/1.jpg"
-            },
-            {
-                name: "Goa",
-                image: "img/india/goa/1.jpg"
-            }
-        ]
-
-        $scope.allactivity = $scope.six_activ;
-        $scope.viewMoreActiv = function () {
-            $scope.activeshow = true;
-            $scope.allactivity = $scope.allactiv;
-        };
-
-
-        $scope.viewLessActiv = function () {
-            $scope.activeshow = false;
-            $scope.allactivity = $scope.six_activ;
-        }
+            "name": "BICYCLE TOUR",
+            "image": "img/activities/bicycle_tour.jpg"
+        }, {
+            "name": "FOOTBALL",
+            "image": "img/activities/football.jpg"
+        }, {
+            "name": "ROULETTE",
+            "image": "img/activities/roulette.jpg"
+        }, {
+            "name": "NIGHT CLUB/DISCO",
+            "image": "img/activities/nightclub.jpg"
+        }, {
+            "name": "PARAGLIDING",
+            "image": "img/activities/parasailing.jpg"
+        }, {
+            "name": "SCUBA DIVING",
+            "image": "img/activities/scuba_diving.jpg"
+        }, {
+            "name": "SKY DIVING",
+            "image": "img/activities/sky_diving.jpg"
+        }, {
+            "name": "TRECKING",
+            "image": "img/activities/trecking.jpg"
+        }, {
+            "name": "SNOW SKIING",
+            "image": "img/activities/skiing.jpg"
+        }];
 
     })
     .controller('WhatsHotCtrl', function ($scope, TemplateService, NavigationService, $timeout, toastr, $http) {

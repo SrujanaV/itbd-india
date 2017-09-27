@@ -65,10 +65,11 @@ img.loading {
     height: auto;
 }
 
-// img {
-//     opacity: 0;
-//     transition: all 300ms ease;
-// }
+img {
+    opacity: 0;
+    transition: all 300ms ease;
+}
+
 img.doneLoading {
     opacity: 1;
 }
@@ -86,7 +87,6 @@ a,
 
 footer {
     font-size: 12px; // background-color: #eee;
-    padding: 10px 0;
     p {
         margin: 0;
     }
@@ -408,6 +408,37 @@ nav li:hover .dropdown-menu {
     width: 250px;
 }
 
+.footb {
+    background: #121212;
+    .fc {
+        padding: 10px 0;
+        .marg7 {
+            padding-top: 7px;
+        }
+    }
+    .fcenter {
+        text-align: center;
+        i {
+            background-color: white;
+            border-radius: 50%;
+            width: 24px;
+            margin: 2px 0;
+            height: 22px;
+            text-align: center;
+            line-height: 2;
+        }
+        a {
+            color: #000000;
+            font-size: 12px;
+        }
+    }
+    p {
+        margin: 0;
+        font-size: 12px;
+        color: #807b7b;
+    }
+}
+
 .destin {
     width: 153px;
     float: right;
@@ -693,7 +724,6 @@ nav li:hover .dropdown-menu {
     background-color: rgba(255, 255, 255, 0.65) !important;
     border: none !important;
     width: 66% !important;
-    height: 27px !important;
 }
 
 .error {
@@ -1592,7 +1622,6 @@ yellow_back_color .flex-control-paging li a.flex-active {
     display: block;
     position: relative;
     z-index: 1;
-    cursor: pointer;
 }
 
 .flipDiv figure figcaption {
