@@ -371,15 +371,15 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                             "image": "img/india/amritsar_chandigarh/3.jpg",
                         },
                         {
-                            "number": 4,
+                            "number": 3,
                             "image": "img/india/amritsar_chandigarh/5.jpg",
                         },
                         {
-                            "number": 5,
+                            "number": 4,
                             "image": "img/india/amritsar_chandigarh/6.jpg",
                         },
                         {
-                            "number": 6,
+                            "number": 5,
                             "image": "img/india/amritsar_chandigarh/7.jpg",
                         }
                     ],

@@ -615,7 +615,7 @@ nav li:hover .dropdown-menu {
     top: 458px;
     .mycartme {
         position: fixed;
-        right: -60px;
+        right: -45px;
         z-index: 10; // top: 498px;
         height: 0;
         button {
@@ -624,15 +624,6 @@ nav li:hover .dropdown-menu {
             @include transform(rotate(-90deg)); // -webkit-transform: rotate(-90deg);
         }
     }
-}
-
-.paddleft1 {
-    display: inline-block;
-    padding: 10px 23px;
-    margin-left: 0!important;
-    font-size: 16px;
-    border: none;
-    outline: 0;
 }
 
 .homecart {
