@@ -1,374 +1,398 @@
- @media (max-width: $screen-sm-max) {
-     //max width:991
-     //screen size 768px
-     // Tablet
-     //navbar
-     .hbc .tp {
-         padding-left: 54px !important;
-     }
-     .hbc .tp {
-         padding-left: 54px !important;
-     }
-     .headerhide {
-         display: block;
-         .dropdown-menu>li>a:hover {
-             background-color: transparent !important;
-         }
-         .dropdown-menu>li>a {
-             padding: 3px 0 !important;
-         }
-         .btn-group.open .dropdown-toggle {
-             box-shadow: none !important;
-         }
-         .dropdown-menu {
-             margin-top: 13px;
-             background-color: #fdd116 !important;
-         }
-         .fixeddrop {
-             position: fixed !important;
-             top: 46px !important;
-         }
-         .btn-group {
-             float: left;
-             margin-top: 20px;
-             margin-right: 17px;
-         }
-         .btn-default,
-         .btn-default:active,
-         .btn-default:focus,
-         .btn-default:hover {
-             padding: 0;
-             color: #002b7f !important;
-             background-color: #fdd116 !important;
-             border: none !important;
-         }
-         i {
-             font-size: 25px;
-         }
-     }
-     .tp .dropdown:hover .dropdown-menu {
-         display: none;
-         background-color: #fdd116 !important;
-     }
-     .tp .dropdown:hover .dropdown-menu {
-         display: none;
-         background-color: #fdd116 !important;
-     }
-     .tp .dropdown:hover {
-         background-color: #fdd116 !important;
-     }
-     .dropdown:hover .colchange {
-         color: #002b7f !important;
-     }
-     .dropdown:hover {
-         background-color: #fdd116 !important;
-     }
-     .hdp {
-         width: 248px;
-     }
-     .hdp {
-         padding: 16px 0 0;
-     }
-     .himg2 .form-control {
-         border-bottom: 1px solid #FDD116;
-         background-size: 24px;
-         font-size: 16px;
-     }
-     .himg2 {
-         width: 63%;
-         padding: 3% 2% 3% 19%;
-         margin-left: 19%;
-     }
-     .himg2 .gobtn {
-         font-size: 19px;
-     }
-     .cartadd .mycartme {
-         top: 200px;
-     }
-     .patmargin3 .formlabels label {
-         font-size: 14px;
-         text-align: inherit;
-     }
-     .homecart {
-         top: 60px !important;
-     }
-     .inputform {
-         width: 59% !important;
-         height: 29px !important;
-         font-size: 15px;
-     }
-     .navbarleft {
-         padding: 8px 10px 0;
-     }
-     .navbar-default .navbar-nav>li>a {
-         font-size: inherit !important;
-     }
-     .navbar-nav>li {
-         float: inherit !important;
-     }
-     .navbar-default .navbar-nav>li>a {
-         color: #263878;
-         border: none;
-     } //navbar end
-     //footer
-     .mf,
-     .textalign {
-         text-align: center;
-     }
-     .stp {
-         font-size: 14px;
-         padding: 2% 0;
-     } //footer
-     //home
-     .homeslid .flex-control-nav {
-         width: 30% !important;
-         position: absolute;
-         bottom: 0 !important;
-         text-align: center !important;
-         display: inline-block !important;
-         z-index: 2 !important;
-         right: 0 !important;
-         margin-bottom: 2%;
-     }
-     .homeslidr .flex-nav-next a::before {
-         background-image: url("./../img/arrow_01.png") !important;
-         content: '\f000';
-         width: 50px;
-         background-size: 37px 33px;
-         background-repeat: no-repeat;
-     }
-     .homeslidr .flex-nav-prev a::before {
-         background-image: url("../img/arrow_02.png") !important;
-         content: '\f000';
-         width: 50px;
-         background-size: 37px 33px;
-         background-repeat: no-repeat;
-     } //  .display {
-     //      cursor: pointer;
-     //      display: block;
-     //      margin-bottom: -21px;
-     //      margin-top: 9%;
-     //      padding-left: 10px;
-     //  }
-     .disp {
-         font-weight: 600;
-         font-size: 16px;
-         color: #fff;
-         background-image: url("../img/btn-bg.png");
-         background-repeat: no-repeat;
-         background-size: 100% 100%;
-         padding: 5px 32px;
-         margin: 0;
-         display: inline-block;
-     }
-     .disp2 {
-         font-size: 34px;
-         margin: 0;
-         color: #ffca18;
-         font-weight: bolder;
-     } //  .display2 {
-     //      cursor: pointer;
-     //      display: block;
-     //      text-align: right;
-     //      margin-bottom: 7%;
-     //  }
-     .events .over-layer .button-holder {
-         font-size: 11px;
-         width: 90%;
-     }
-     .event-name span {
-         font-size: 10px;
-     }
-     .shadow-down {
-         height: 13%;
-     }
-     .m8 .ml {
-         display: inherit;
-         margin-left: 10%;
-     }
-     .m8 .mr {
-         margin-left: 0;
-     }
-     .borderup {
-         background: linear-gradient(to right, white 30%, white 30%, white 30%, white 30%, #FDD116 29%);
-     }
-     .p {
-         font-size: 12px;
-     }
-     .p2 {
-         font-size: 43px;
-     }
-     .margleft {
-         margin-left: 70px;
-     } //enquiry section in home
-     .m4 .m2 .padup {
-         padding: 82% 0 0;
-     }
-     .m4 .m2 .pd15 h1 {
-         font-size: 43px;
-     }
-     .imgab {
-         width: 38%;
-     }
-     .labsec {
-         font-size: 14px;
-     } //about section
-     .imAb {
-         margin: 0;
-         width: 210px;
-         padding: 0;
-     }
-     .spAb {
-         width: auto;
-         text-align: center;
-         padding-left: 0;
-     }
-     .spAb h1 {
-         font-size: 40px;
-     }
-     .spAb .ain {
-         font-size: 10px;
-     }
-     .margbotom {
-         margin-bottom: 0 !important;
-         font-size: 16px;
-     }
-     .homeslid .flex-control-nav {
-         width: 30% !important;
-         position: absolute;
-         bottom: 0 !important;
-         text-align: center !important;
-         display: inline-block !important;
-         z-index: 2 !important;
-         right: 0 !important;
-         margin-bottom: 2%;
-     } //home end
-     //destination css starts here
-     .fsiz {
-         padding: 36px 0;
-         font-size: 64px;
-     }
-     .loadimag,
-     .lodm {
-         padding: 4% 0;
-         a {
-             padding: 13px 52px;
-             font-size: 11px;
-         }
-     } //activity
-     .m1 {
-         margin-top: -20px;
-     }
-     .pd50 {
-         padding: 0 27px;
-     }
-     .category .form-group input {
-         font-size: 13px;
-     }
-     .paddactiv {
-         padding-bottom: 11%;
-     }
-     .select-main {
-         margin: 0 !important;
-     }
-     .select-main i {
-         font-size: 13px;
-     }
-     .maxht {
-         height: auto;
-     }
-     .load-more .button-holder {
-         font-size: 12px;
-     }
-     .pdb30 {
-         padding: 0 !important;
-     } //custom destination
-     .whatsmain .pading0 {
-         padding: 1px !important;
-     }
-     .whatsmain .whatsmarg4 .whatspadd3 {
-         padding: 9% 3%;
-     }
-     .whatsmain .whatsmarg4 .wtimg {
-         padding: 10px 25px;
-         font-size: 16px;
-     }
-     .whatsmain .whatsmarg4 .wtvi {
-         margin: 0 23px;
-         font-size: 20px;
-     }
-     .pattmarg2 {
-         padding: 7% 0;
-     }
-     .checkboxrow {
-         padding: 1% 2% 9%;
-         text-align: center;
-     }
-     .checkboxrow .checkbox label {
-         margin-left: 0 !important;
-         font-size: 12px !important;
-     }
-     .checkboxrow p {
-         margin: 0 !important;
-         font-size: 18px;
-     }
-     .pattmarg3 {
-         margin-top: -38px;
-         margin-bottom: 5%;
-     }
-     .maxwidth {
-         width: 100% !important;
-     } //custom destination
-     .panelhead .fontpanel {
-         font-size: 14px;
-     }
-     .pattsocial2 .socialpatt .fontsizep {
-         font-size: 12px;
-     }
-     .pattform .form-control {
-         border: none !important;
-         font-size: 12px !important;
-         margin-bottom: 8px !important;
-         height: auto !important;
-         padding: 6px 12px !important;
-     }
-     .pattform .btn-submit {
-         border: none !important;
-         font-size: 14px !important;
-         margin-bottom: 0 !important;
-         height: auto !important;
-         padding: 5px 9px !important;
-         width: 100%;
-         background: #002b7f !important;
-         color: #cacaca !important;
-     } //  .pattform {
-     //      margin-top: -26.8%;
-     //      position: absolute;
-     //      right: 41px;
-     //      padding: 15px;
-     //      width: 60%;
-     //      z-index: 1;
-     //  }
-     .pattsocial .socialpatt .fontsizep {
-         font-size: 12px;
-     }
-     .pattsocial .socialpatt {
-         padding: 14px 0;
-         font-size: 7px;
-         width: 122px;
-         margin-left: -85px;
-         margin-bottom: 0;
-     }
-     .pattsocial2 {
-         -webkit-transform: rotate(-90deg);
-         transform: rotate(-90deg);
-         position: absolute;
-         right: -54px;
-         top: 35px;
-         z-index: 11;
-     }
-     .enqcart {
-         padding: 78px 15px 80px 62px !important;
-         margin-top: -14px !important;
-     }
- }
+@media (max-width: $screen-sm-max) {
+    //max width:991
+    //screen size 768px
+    // Tablet
+    //navbar
+    .hd-xs {
+        display: none;
+    }
+    .patmargin3 .formlabels button {
+        margin-left: 70px;
+    }
+    textarea.form-control {
+        height: auto !important;
+    }
+    .mycart2 {
+        top: 60%;
+        left: -13%;
+    }
+    .foo_block {
+        padding: 20px;
+    }
+    .stp .form-control {
+        width: 35% !important;
+    }
+    .hbc .tp {
+        padding-left: 54px !important;
+    }
+    .hbc .tp {
+        padding-left: 54px !important;
+    }
+    .hdn {
+        margin: 0px 20px;
+    }
+    .headerhide {
+        display: block;
+        .dropdown-menu>li>a:hover {
+            background-color: transparent !important;
+        }
+        .dropdown-menu>li>a {
+            padding: 3px 0 !important;
+        }
+        .btn-group.open .dropdown-toggle {
+            box-shadow: none !important;
+        }
+        .dropdown-menu {
+            margin-top: 13px;
+            background-color: #0d0f24 !important;
+        }
+        .fixeddrop {
+            position: fixed !important;
+            top: 46px !important;
+        }
+        .btn-group {
+            float: left;
+            margin-top: 20px;
+            margin-right: 17px;
+        }
+        .btn-default,
+        .btn-default:active,
+        .btn-default:focus,
+        .btn-default:hover {
+            padding: 0;
+            color: #81b1d9 !important;
+            background-color: #0d0f24 !important;
+            border: none !important;
+        }
+        i {
+            font-size: 25px;
+        }
+    }
+    .tp .dropdown:hover .dropdown-menu {
+        display: none; //  background-color: #fdd116 !important;
+        background-color: #0d0f24 !important;
+    }
+    .tp .dropdown:hover .dropdown-menu {
+        display: none; //  background-color: #fdd116 !important;
+        background-color: #0d0f24 !important;
+    }
+    .tp .dropdown:hover {
+        background-color: #0d0f24 !important;
+    }
+    .dropdown:hover .colchange {
+        color: #002b7f !important;
+    }
+    .dropdown:hover {
+        //  background-color: #fdd116 !important;
+        background-color: #0d0f24 !important;
+    }
+    .hdp {
+        width: 248px;
+    }
+    .hdp {
+        padding: 16px 0 0;
+    }
+    .himg2 .form-control {
+        border-bottom: 1px solid #0d0f24;
+        background-size: 24px;
+        font-size: 16px;
+    }
+    .himg2 {
+        width: 63%;
+        padding: 3% 2% 3% 19%;
+        margin-left: 19%;
+    }
+    .himg2 .gobtn {
+        font-size: 19px;
+    }
+    .cartadd .mycartme {
+        top: 200px;
+    }
+    .patmargin3 .formlabels label {
+        font-size: 14px;
+        text-align: inherit;
+    }
+    .homecart {
+        top: 60px !important;
+    }
+    .inputform {
+        width: 59% !important;
+        height: 29px !important;
+        font-size: 15px;
+    }
+    .navbarleft {
+        padding: 8px 25px 0;
+    }
+    .navbar-default .navbar-nav>li>a {
+        font-size: inherit !important;
+    }
+    .navbar-nav>li {
+        float: inherit !important;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: #81b1d9;
+        border: none;
+    } //navbar end
+    //footer
+    .mf,
+    .textalign {
+        text-align: center;
+    }
+    .stp {
+        font-size: 14px;
+        padding: 1% 0;
+    } //footer
+    //home
+    .homeslid .flex-control-nav {
+        width: 30% !important;
+        position: absolute;
+        bottom: 0 !important;
+        text-align: center !important;
+        display: inline-block !important;
+        z-index: 2 !important;
+        right: 0 !important;
+        margin-bottom: 2%;
+    }
+    .homeslidr .flex-nav-next a::before {
+        background-image: url("./../img/arrow_01.png") !important;
+        content: '\f000';
+        width: 50px;
+        background-size: 37px 33px;
+        background-repeat: no-repeat;
+    }
+    .homeslidr .flex-nav-prev a::before {
+        background-image: url("../img/arrow_02.png") !important;
+        content: '\f000';
+        width: 50px;
+        background-size: 37px 33px;
+        background-repeat: no-repeat;
+    } //  .display {
+    //      cursor: pointer;
+    //      display: block;
+    //      margin-bottom: -21px;
+    //      margin-top: 9%;
+    //      padding-left: 10px;
+    //  }
+    .disp {
+        font-weight: 600;
+        font-size: 16px;
+        color: #fff;
+        background-image: url("../img/btn-bg.png");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 5px 32px;
+        margin: 0;
+        display: inline-block;
+    }
+    .disp2 {
+        font-size: 34px;
+        margin: 0;
+        color: #0b325b;
+        font-weight: bolder;
+    } //  .display2 {
+    //      cursor: pointer;
+    //      display: block;
+    //      text-align: right;
+    //      margin-bottom: 7%;
+    //  }
+    .events .over-layer .button-holder {
+        font-size: 11px;
+        width: 90%;
+    }
+    .event-name span {
+        font-size: 10px;
+    }
+    .shadow-down {
+        height: 13%;
+    }
+    .m8 .ml {
+        display: inherit;
+        margin-left: 10%;
+    }
+    .m8 .mr {
+        margin-left: 0;
+    }
+    .borderup {
+        background: linear-gradient(to right, white 30%, white 30%, white 30%, white 30%, #81b1d9 29%);
+    }
+    .p {
+        font-size: 12px;
+    }
+    .p2 {
+        font-size: 43px;
+    }
+    .margleft {
+        margin-left: 70px;
+    } //enquiry section in home
+    .m4 .m2 .padup {
+        padding: 82% 0 0;
+    }
+    .m4 .m2 .pd15 h1 {
+        font-size: 43px;
+    }
+    .imgab {
+        width: 38%;
+    }
+    .labsec {
+        font-size: 14px;
+        padding-left: 10px;
+    } //about section
+    .imAb {
+        margin: 0;
+        width: 210px;
+        padding: 0;
+    }
+    .spAb {
+        width: auto;
+        text-align: center;
+        padding-left: 0;
+    }
+    .spAb h1 {
+        font-size: 40px;
+    }
+    .spAb .ain {
+        font-size: 10px;
+    }
+    .margbotom {
+        margin-bottom: 0 !important;
+        font-size: 16px;
+    }
+    .homeslid .flex-control-nav {
+        width: 30% !important;
+        position: absolute;
+        bottom: 0 !important;
+        text-align: center !important;
+        display: inline-block !important;
+        z-index: 2 !important;
+        right: 0 !important;
+        margin-bottom: 2%;
+    } //home end
+    //destination css starts here
+    .fsiz {
+        padding: 36px 0;
+        font-size: 64px;
+    }
+    .loadimag,
+    .lodm {
+        padding: 4% 0;
+        a {
+            padding: 13px 52px;
+            font-size: 11px;
+        }
+    } //activity
+    .m1 {
+        margin-top: -20px;
+    }
+    .pd50 {
+        padding: 0 27px;
+    }
+    .category .form-group input {
+        font-size: 13px;
+    }
+    .paddactiv {
+        padding-bottom: 11%;
+    }
+    .select-main {
+        margin: 0 !important;
+    }
+    .select-main i {
+        font-size: 13px;
+    }
+    .maxht {
+        height: auto;
+    }
+    .load-more .button-holder {
+        font-size: 12px;
+    }
+    .pdb30 {
+        padding: 0 !important;
+    } //custom destination
+    .whatsmain .pading0 {
+        padding: 1px !important;
+    }
+    .whatsmain .whatsmarg4 .whatspadd3 {
+        padding: 9% 3%;
+    }
+    .whatsmain .whatsmarg4 .wtimg {
+        padding: 10px 25px;
+        font-size: 16px;
+    }
+    .whatsmain .whatsmarg4 .wtvi {
+        margin: 0 23px;
+        font-size: 20px;
+    }
+    .pattmarg2 {
+        padding: 7% 0;
+    }
+    .checkboxrow {
+        padding: 1% 2% 9%;
+        text-align: center;
+    }
+    .checkboxrow .checkbox label {
+        margin-left: 0 !important;
+        font-size: 12px !important;
+    }
+    .checkboxrow p {
+        margin: 0 !important;
+        font-size: 18px;
+    }
+    .pattmarg3 {
+        margin-top: -38px;
+        margin-bottom: 5%;
+    }
+    .maxwidth {
+        width: 100% !important;
+    } //custom destination
+    .panelhead .fontpanel {
+        font-size: 14px;
+    }
+    .pattsocial2 .socialpatt .fontsizep {
+        font-size: 12px;
+    }
+    .pattform .form-control {
+        border: none !important;
+        font-size: 12px !important;
+        margin-bottom: 8px !important;
+        height: auto !important;
+        padding: 6px 12px !important;
+    }
+    .pattform .btn-submit {
+        border: none !important;
+        font-size: 14px !important;
+        margin-bottom: 0 !important;
+        height: auto !important;
+        padding: 5px 9px !important;
+        width: 100%;
+        background: #002b7f !important;
+        color: #cacaca !important;
+    } //  .pattform {
+    //      margin-top: -26.8%;
+    //      position: absolute;
+    //      right: 41px;
+    //      padding: 15px;
+    //      width: 60%;
+    //      z-index: 1;
+    //  }
+    .pattsocial .socialpatt .fontsizep {
+        font-size: 12px;
+    }
+    .pattsocial .socialpatt {
+        padding: 14px 0;
+        font-size: 7px;
+        width: 122px;
+        margin-left: -85px;
+        margin-bottom: 0;
+    }
+    .pattsocial2 {
+        -webkit-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        position: absolute;
+        right: -54px;
+        top: 35px;
+        z-index: 11;
+    }
+    .enqcart {
+        padding: 78px 15px 80px 62px !important;
+        margin-top: -14px !important;
+    }
+}

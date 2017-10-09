@@ -1,6 +1,60 @@
 @media (max-width: $screen-xs-max) {
     // Mobile
     //navbar
+    .margincheck {
+        margin: 8px 0% 6%;
+    }
+    .pattayamarg4 {
+        margin: 0px;
+    }
+    .navbarleft {
+        padding: 0px;
+    }
+    .modal.in .modal-dialog {
+        margin-top: 100px;
+    }
+    .homeslidr .flex-control-nav {
+        bottom: 0px !important;
+    }
+    .vs-xs {
+        display: block;
+    }
+    .patmargin3 .formlabels button {
+        margin-left: 0px;
+    }
+    .stp .form-control {
+        width: 55% !important;
+    }
+    .himg2 .dropdown-menu a {
+        font-size: 8px;
+    }
+    .himg2 .form-control {
+        background-size: 10px;
+    }
+    .navbar-default .navbar-toggle:hover,
+    .navbar-default .navbar-toggle:focus {
+        background-color: #0d0f24;
+    }
+    .himg {
+        width: 130px;
+    }
+    .imgab {
+        width: 40%;
+        top: 35px;
+    }
+    .himg2 .gobtn {
+        // width: auto;
+        font-size: 14px;
+        padding-left: 4px;
+        vertical-align: super;
+    }
+    figure figcaption {
+        top: -15px;
+    }
+    .labsec {}
+    .m8 {
+        margin-bottom: 0px;
+    }
     .hbc .tp {
         padding-left: 0 !important;
     }
@@ -11,13 +65,16 @@
         letter-spacing: 1px;
     }
     .himg2 .inputtag {
-        width: 79%;
+        width: 80%;
     }
     .himg2 .form-control {
-        font-size: 12px;
+        font-size: 10px;
         overflow: hidden !important;
         white-space: pre-wrap;
         text-overflow: ellipsis;
+    }
+    .ui-select-bootstrap>.ui-select-match>.btn {
+        background-size: 10px;
     }
     .headerhide {
         display: none;
@@ -26,7 +83,7 @@
         border-right: 0px;
     }
     .cartadd {
-        width: 100%;
+        // width: 100%;
         bottom: 0;
         height: auto;
     }
@@ -75,7 +132,7 @@
         padding: 0;
     }
     .himg2 .inputtag {
-        width: 79%;
+        width: 70%;
     } //about section
     .imAb {
         width: 115px;
@@ -96,7 +153,7 @@
         width: 100% !important;
     }
     .category {
-        background-color: #fdd116; // padding: 20px;
+        background-color: #81b1d9; // padding: 20px;
     }
     .select-main {
         width: 100%;
