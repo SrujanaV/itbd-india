@@ -356,8 +356,8 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 //code
                 $scope.getCustom = {
                     "banner": "img/india/amritsar_chandigarh/banner.jpg",
-                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
-                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                    "description": "Amritsar is home to the spectacular Golden Temple, Sikhism's holiest shrine and one of India’s most serene and humbling sights. The same cannot be said for the hyperactive streets surrounding the temple, but they're a delight to walk through for a sensory overload of sights, sounds and smells. Chandigarh shows itself off to global travellers much like greater India would wish to be seen – prosperous, comfortable and cosmopolitan.",
+                    "content": "A glimpse of the popular places to visit in Amritsar Chandigarh",
                     images: [{
                             "number": 0,
                             "image": "img/india/amritsar_chandigarh/1.jpg",
@@ -388,8 +388,8 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             case "Andaman And Nicobar Island":
                 $scope.getCustom = {
                     "banner": "img/india/andaman and nicobar island/banner.jpg",
-                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
-                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                    "description": "With breathtakingly beautiful coastline, lush forested interior, fantastic diving possibilities and a far-flung location, the Andaman Islands are a perfect place to ramble around or simply chill out on sun-toasted beaches. ",
+                    "content": "A glimpse of the popular places to visit in Andaman And Nicobar Island",
                     images: [{
                             "number": 0,
                             "image": "img/india/andaman and nicobar island/1.jpg",
@@ -412,8 +412,8 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             case "Coorg Kabini":
                 $scope.getCustom = {
                     "banner": "img/india/coorg  kabini/banner.jpg",
-                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
-                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                    "description": "Blessed with scenic charm and picturesque views, Coorg tourism will present you with some of the best opportunities to enjoy your holidays. This famous wildlife destination has a rich variety of flora and fauna making it a gorgeous tourist spot.  ",
+                    "content": "A glimpse of the popular places to visit in Coorg Kabini",
                     images: [{
                             "number": 0,
                             "image": "img/india/coorg  kabini/1.jpg",
@@ -443,8 +443,8 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             case "Darjeeling":
                 $scope.getCustom = {
                     "banner": "img/india/darjeeling/banner.jpg",
-                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
-                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                    "description": "Spread in ribbons over a steep mountain ridge, surrounded by emerald-green tea plantations and towered over by majestic Khangchendzonga, Darjeeling is the definitive Indian hill station and is arguably West Bengal’s premier attraction.",
+                    "content": "A glimpse of the popular places to visit in Darjeeling",
                     images: [{
                             "number": 0,
                             "image": "img/india/darjeeling/1.jpg",
@@ -477,8 +477,8 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             case "Delhi Agra":
                 $scope.getCustom = {
                     "banner": "img/india/delhi agra/banner.jpg",
-                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
-                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                    "description": "Delhi is a city where time travel is feasible. Step aboard your time machine (the sleek and efficient metro) and you can go from Old Delhi, where labourers haul sacks of spices and jewellers weigh gold on dusty scales, to modern New Delhi, with its colonial-era parliament buildings and penchant for high tea.The magical allure of the Taj Mahal draws tourists to Agra like moths to a wondrous flame. ",
+                    "content": "A glimpse of the popular places to visit in Delhi Agra",
                     images: [{
                             "number": 0,
                             "image": "img/india/delhi agra/1.jpg",
@@ -532,8 +532,8 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             case "Goa":
                 $scope.getCustom = {
                     "banner": "img/india/goa/banner.jpg",
-                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
-                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                    "description": "Pint-sized Goa is more than beaches and trance parties. A kaleidoscopic blend of Indian and Portuguese cultures, sweetened with sun, sea, sand, seafood and spirituality, there's nowhere in India quite like it.",
+                    "content": "A glimpse of the popular places to visit in Goa",
                     images: [{
                             "number": 0,
                             "image": "img/india/goa/1.jpg",
@@ -569,8 +569,8 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             case "Jaipur":
                 $scope.getCustom = {
                     "banner": "img/india/jaipur/banner.jpg",
-                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
-                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                    "description": "Enthralling, historical Jaipur, Rajasthan’s capital, is the gateway to India’s most flamboyant state. It is a sea of palace windows. ",
+                    "content": "A glimpse of the popular places to visit in Jaipur",
                     images: [{
                             "number": 0,
                             "image": "img/india/jaipur/1.jpg",
@@ -606,8 +606,8 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             case "Jaisalmer":
                 $scope.getCustom = {
                     "banner": "img/india/jaisalmer/banner.jpg",
-                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
-                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                    "description": "The fort of Jaisalmer is a breathtaking sight: a massive sandcastle rising from the sandy plains like a mirage from a bygone era. No place better evokes exotic camel-train trade routes and desert mystery. Beneath the ramparts, particularly to the north, the narrow streets of the old city conceal magnificent havelis, all carved from the same golden-honey sandstone as the fort – hence Jaisalmer’s designation as the Golden City.",
+                    "content": "A glimpse of the popular places to visit in Jaisalmer",
                     images: [{
                             "number": 0,
                             "image": "img/india/jaisalmer/1.jpg",
@@ -637,8 +637,8 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             case "Jammu and Kashmir":
                 $scope.getCustom = {
                     "banner": "img/india/jammu and Kashmir/banner.jpg",
-                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
-                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                    "description": "The state of Jammu & Kashmir (J&K) brings together three incredibly different worlds. Hindu Jammu and Katra, in the south, are the state's rail hubs and a major draw for domestic pilgrims. Muslim Kashmir is India's Switzerland, attracting hordes of local tourists seeking cool summer air, alpine scenery and Srinagar’s romantic houseboat accommodation.",
+                    "content": "A glimpse of the popular places to visit in Jammu and Kashmir",
                     images: [{
                             "number": 0,
                             "image": "img/india/jammu and Kashmir/1.jpg",
@@ -682,8 +682,8 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             case "Kovalam":
                 $scope.getCustom = {
                     "banner": "img/india/kovalam/banner.jpg",
-                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
-                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                    "description": "Once a calm fishing village clustered around its crescent beaches, Kovalam competes with Varkala as Kerala’s most developed resort. The touristy main stretch, Lighthouse Beach, has hotels and restaurants built up along the shore, while Hawa Beach to the north is usually crowded with day trippers heading straight from the taxi stand to the sand.",
+                    "content": "A glimpse of the popular places to visit in Kovalam",
                     images: [{
                             "number": 0,
                             "image": "img/india/kovalam/1.jpg",
@@ -706,8 +706,8 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             case "Kumarakom":
                 $scope.getCustom = {
                     "banner": "img/india/kumarakom/banner.jpg",
-                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
-                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                    "description": "Kumarakom, on the shore of vast Vembanad Lake – Kerala's largest lake – is an unhurried backwater village with a smattering of dazzling top-end sleeping options and a renowned bird sanctuary. You can arrange houseboats through Kumarakom’s less-crowded canals, but expect to pay considerably more than in Alleppey.",
+                    "content": "A glimpse of the popular places to visit in Kumarakom",
                     images: [{
                             "number": 0,
                             "image": "img/india/kumarakom/1.jpg",
@@ -733,8 +733,8 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             case "Leh and Ladakh":
                 $scope.getCustom = {
                     "banner": "img/india/leh and ladakh/banner.jpg",
-                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
-                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                    "description": "Himalayan land of Ladakh, which for most foreigners is J&K’s greatest attraction. Its disarmingly friendly, ethno-linguistically Tibetan people are predominantly Buddhist; their timeless monasteries are set between arid canyons and soaring peaks, while emerald-green villages nestle photogenically in highland deserts. ",
+                    "content": "A glimpse of the popular places to visit in Leh and Ladakh",
                     images: [{
                             "number": 0,
                             "image": "img/india/leh and ladakh/1.jpg",
@@ -770,8 +770,8 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             case "Madurai":
                 $scope.getCustom = {
                     "banner": "img/india/madurai/banner.jpg",
-                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
-                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                    "description": "Chennai may be the capital of Tamil Nadu, but Madurai claims its soul. Madurai is Tamil-born and Tamil-rooted, one of the oldest cities in India, a metropolis that traded with ancient Rome and was a great capital long before Chennai was even dreamed of.",
+                    "content": "A glimpse of the popular places to visit in Madurai",
                     images: [{
                             "number": 0,
                             "image": "img/india/madurai/1.jpg",
@@ -803,8 +803,8 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             case "Manali":
                 $scope.getCustom = {
                     "banner": "img/india/manali/banner.jpg",
-                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
-                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                    "description": "Surrounded by high peaks in the beautiful green Beas valley, with mountain adventures beckoning from all directions, Manali is a year-round magnet. Backpackers come to hang out in the hippie villages around the main town; adventurers come for trekking, climbing, rafting and skiing; Indian families and honeymooners come for the mountain air and a taste of snow on the Rohtang La pass.",
+                    "content": "A glimpse of the popular places to visit in Manali",
                     images: [{
                             "number": 0,
                             "image": "img/india/manali/1.jpg",
@@ -840,8 +840,8 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             case "Munnar":
                 $scope.getCustom = {
                     "banner": "img/india/munnar/banner.jpg",
-                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
-                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                    "description": "The rolling hills around Munnar, South India's largest tea-growing region, are carpeted in emerald-green tea plantations, contoured, clipped and sculpted like ornamental hedges. The low mountain scenery is magnificent – you’re often up above the clouds watching veils of mist clinging to the mountaintops. Munnar town itself is a scruffy, traffic-clogged administration centre, not unlike a North Indian hill station, but wander just a few kilometres out of town and you’ll be engulfed in a sea of a thousand shades of green.",
+                    "content": "A glimpse of the popular places to visit in Munnar",
                     images: [{
                             "number": 0,
                             "image": "img/india/munnar/1.jpg",
@@ -866,8 +866,8 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             case "Mussourie Rishikesh":
                 $scope.getCustom = {
                     "banner": "img/india/mussourie rishikesh/banner.jpg",
-                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
-                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                    "description": "Perched on a ridge 2km high, the 'Queen of Hill Stations' vies with Nainital as Uttarakhand’s favourite holiday destination. When the mist clears, views of the green Doon Valley and the distant white-capped Himalayan peaks are superb, and in the hot months the cooler temperatures and fresh mountain air make a welcome break from the plains below. Rishikesh has been a magnet for spiritual seekers. Most of this action is north of the main town, where the exquisite setting on the fast-flowing Ganges, surrounded by forested hills, is conducive to meditation and mind expansion. In the evening, an almost supernatural breeze blows down the valley, setting temple bells ringing as sadhus ('holy' men), pilgrims and tourists prepare for the nightly ganga aarti (river worship ceremony). ",
+                    "content": "A glimpse of the popular places to visit in Mussourie Rishikesh",
                     images: [{
                             "number": 0,
                             "image": "img/india/mussourie rishikesh/1.jpg",
@@ -910,8 +910,8 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             case "Pondicherry":
                 $scope.getCustom = {
                     "banner": "img/india/pondicherry/banner.jpg",
-                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
-                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                    "description": "Hotels, restaurants and ‘lifestyle’ shops sell a seductive vision of the French-subcontinental aesthetic, enhanced by Gallic creative types and Indian artists and designers. Thus Pondy’s vibe: less faded colonial-era ville, more bohemian-chic, New Age–meets–Old World hang-out on the international travel trail.  ",
+                    "content": "A glimpse of the popular places to visit in Pondicherry",
                     images: [{
                             "number": 0,
                             "image": "img/india/pondicherry/1.jpg",
@@ -936,8 +936,8 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             case "Shimla":
                 $scope.getCustom = {
                     "banner": "img/india/shimla/banner.jpg",
-                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
-                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                    "description": "Strung out along a 12km ridge, with steep forested hillsides falling away in all directions, the Himachal capital is a good appetite-whetter for the awe-inspiring mountain tracts of the state's interior. Shimla is one of India's most popular hill resorts, buzzing with a happy flow of Indian vacationers and full of relics of its previous life as the summer capital of British India.The long, winding main street, the Mall, runs east and west just below the spine of the hill. South of it, the maze-like alleys of the bustling bazaar cascade steeply down to traffic-infested Cart Rd.   ",
+                    "content": "A glimpse of the popular places to visit in Shimla",
                     images: [{
                             "number": 0,
                             "image": "img/india/shimla/1.jpg",
@@ -982,8 +982,8 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             case "Sikkim Gangtok":
                 $scope.getCustom = {
                     "banner": "img/india/sikkim gangtok/banner.jpg",
-                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
-                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                    "description": "The meditative, mural-filled traditional monasteries of Tibetan Buddhism coexist with Hindu shrines of the ever-growing Nepali community, both religions creating some astonishing latter-day mega-sculptures to adorn the skyline. Irreverent, cheerful and pleasantly boisterous, Sikkim’s modern capital is layered along a precipitous mountain ridge, descending the hillside in steep tiers.there are countless viewpoints with panoramas that encompass plunging green valleys and, if you're lucky weather-wise, glimpses of Khangchendzonga on the distant skyline.  ",
+                    "content": "A glimpse of the popular places to visit in Sikkim Gangtok",
                     images: [{
                             "number": 0,
                             "image": "img/india/sikkim gangtok/1.jpg",
@@ -1025,8 +1025,8 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             case "Thekkady":
                 $scope.getCustom = {
                     "banner": "img/india/thekkady/banner.jpg",
-                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
-                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                    "description": "It is firmly established on both the Indian and foreigner tourist trails and has a typical boat cruise that doesn't scream 'wildlife experience', but if you dig deeper and do a trek led by a tribal villager, the hills and jungle scenery make for a rewarding visit.  ",
+                    "content": "A glimpse of the popular places to visit in Thekkady",
                     images: [{
                             "number": 0,
                             "image": "img/india/thekkady/1.jpg",
@@ -1048,8 +1048,8 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             case "Udaipur":
                 $scope.getCustom = {
                     "banner": "img/india/udaipur/banner.jpg",
-                    "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
-                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                    "description": "Fantastical palaces, temples, havelis and countless narrow, crooked, timeless streets add the human counterpoint to the city’s natural charms. For the visitor there's the tranquillity of boat rides on the lake, the bustle and colour of ancient bazaars, a lively arts scene, the quaint old-world feel of its better hotels, endless tempting shops and some lovely countryside to explore on wheels, feet or horseback.",
+                    "content": "A glimpse of the popular places to visit in Udaipur",
                     images: [{
                             "number": 0,
                             "image": "img/india/udaipur/1.jpg",
@@ -1082,7 +1082,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
                 $scope.getCustom = {
                     "banner": "img/india/vythiri/banner.jpg",
                     "description": "Hash brownies... Hot Girls... Unlimited Alcohol... Ultimate Nightlife... World famous Red Light District! Oh Yes! This city lets you indulge into everything that is not so legal in the other parts of the world!",
-                    "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard",
+                    "content": "A glimpse of the popular places to visit in Vythiri",
                     images: [{
                             "number": 0,
                             "image": "img/india/vythiri/1.jpg",

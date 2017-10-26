@@ -1823,6 +1823,7 @@ yellow_back_color .flex-control-paging li a.flex-active {
 
 .margincheck {
     margin: 1% 5% -1px;
+    text-align: center;
 }
 
 .checkboxrow {
@@ -1830,7 +1831,7 @@ yellow_back_color .flex-control-paging li a.flex-active {
 }
 
 .checkboxrow {
-    text-transform: capitalize;
+    // text-transform: capitalize;
     text-align: center;
     .check_img {
         display: inline-block;
