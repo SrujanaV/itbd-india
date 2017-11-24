@@ -26,7 +26,7 @@ module.exports = {
    ***************************************************************************/
 
   port: 82,
-  realHost: "http://intimebydesign.in",
+  realHost: "https://intimebydesign.in",
   emails: ["chintan@wohlig.com", "jagruti@wohlig.com", "tushar@wohlig.com", "chirag@wohlig.com", "harsh@wohlig.com"]
 
   /***************************************************************************
