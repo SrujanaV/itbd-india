@@ -11777,6 +11777,9 @@ a:hover {
     background-color: #81b1d9;
     outline: 0; }
 
+.link {
+  text-decoration: none; }
+
 #fancybox-loading,
 .fancybox-close,
 .fancybox-next span,
