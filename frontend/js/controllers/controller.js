@@ -158,7 +158,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         ];
 
     })
-    .controller('headerCtrl', function ($scope, $rootScope, TemplateService, NavigationService, $timeout, $uibModal,$state) {
+    .controller('headerCtrl', function ($scope, $state, $rootScope, TemplateService, NavigationService, $timeout, $uibModal,$state) {
         $scope.template = TemplateService;
         $scope.$on('$stateChangeSuccess', function (event, toState, toParams, fromState, fromParams) {
             $(window).scrollTop(0);
