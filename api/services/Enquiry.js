@@ -86,7 +86,7 @@ var model = {
                     emailData.message = data.message;
                     emailData.groupsize = data.groupsize;
                     emailData.mobile = data.mobile;
-                    emailData.email = "saili.rawnang@wohlig.com";
+                    emailData.email = "intimebydesign@gmail.com";
                     emailData.filename = "mail.ejs";
                     emailData.subject = "Enquiry";
                     console.log("emaildata", emailData);
