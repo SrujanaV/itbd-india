@@ -158,12 +158,37 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         ];
 
     })
-    .controller('headerctrl', function ($scope, $rootScope, TemplateService, NavigationService, $timeout, $uibModal) {
+    .controller('headerCtrl', function ($scope, $rootScope, TemplateService, NavigationService, $timeout, $uibModal,$state) {
         $scope.template = TemplateService;
         $scope.$on('$stateChangeSuccess', function (event, toState, toParams, fromState, fromParams) {
             $(window).scrollTop(0);
+        
+});
+  $scope.showmsg=false;
+    $scope.submit = function (data) {
+            console.log("submiting...",data)
+                 console.log("submiting...")
+            console.log("data",data)
+            if (data) {
+                console.log("cartData")
+                    console.log("detailForm.$valid")
+                    NavigationService.submitEnquiry(data, function (data) {
+                        console.log("data is",data)
+                        if (data.data.data=="validationfailed") {
+                           $scope.showmsg=true;
+                        
+                        }else{
+                             $scope.mycart=false;
+                           $scope.cartData={};
+                           $scope.showmsg=false;
+                             $state.reload()
 
-        });
+                        }
+                        console.log(data)
+                  });
+            
+            }
+        };
 
         $scope.HeaderAllDest = _.chunk(TemplateService.allplaces, 8);
         var temp = _.filter(TemplateService.allplaces, ['popular', true]);

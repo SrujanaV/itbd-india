@@ -27,7 +27,7 @@ module.exports = {
 
   port: 82,
   realHost: "https://intimebydesign.in",
-  emails: ["chintan@wohlig.com", "jagruti@wohlig.com", "tushar@wohlig.com", "chirag@wohlig.com", "harsh@wohlig.com"]
+  emails: ["chintan@wohlig.com", "jagruti@wohlig.com", "tushar@wohlig.com", "chirag@wohlig.com", "harsh@wohlig.com","saili.rawnang@wohlig.com"]
 
   /***************************************************************************
    * Set the log level in production environment to "silent"                 *
