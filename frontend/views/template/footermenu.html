@@ -20,13 +20,20 @@
         <div class="col-md-3 col-sm-12 col-xs-12">
             <strong class="stp Robotor yellow_color">ENQUIRE US</strong>
             <div class="stp Robotor">
-                <form name="myFormFooter" ng-hide="subscribeComplete || alreadySubscribed" class="form-inline">
+                <!--<form name="myFormFooter" ng-hide="subscribeComplete || alreadySubscribed" class="form-inline">
                     <input type="email" placeholder="ENTER YOUR EMAIL ID" class="hideinput form-control ng-pristine ng-empty ng-invalid ng-invalid-required ng-valid-email ng-touched"
                         name="email" ng-model="data.email" required="">
                         
-                    <button class="submitgo" type="submit" ng-click="submitEmail(data)" name="button">GO</button>
+                    <button class="submitgo" type="submit" ng-click="subscribeSubmit(data)" name="button">GO</button>
                     <span style="color: white" ng-if="showMsg">Email already exists</span>
+                     <span style="color: white" ng-if="hideMsg">thank you for the enquiry</span>
+                </form>-->
+                  <div class="stp Robotor">
+                <form name="myFormFooter" ng-submit="subscribeSubmit(subscribeData)" ng-hide="subscribeComplete || alreadySubscribed">
+                    <input type="email" placeholder="ENTER YOUR EMAIL ID" class="hideinput form-control ng-pristine ng-empty ng-invalid ng-invalid-required ng-valid-email ng-touched" name="email" ng-model="subscribeData.email" required="" style="">
+                    <button class="submitgo" type="submit" name="button">GO</button>
                 </form>
+            </div>
             </div>
             <strong ng-if="subscribeComplete" class="stp Robotor yellow_color">Thank You For Subscribing.</strong>
             <strong ng-if="alreadySubscribed" class="stp Robotor yellow_color">Sorry, You have already Subscribed.</strong>
