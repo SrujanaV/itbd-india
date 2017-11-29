@@ -24,7 +24,7 @@
     }],
     "button": [],
     "apiCall": {
-        "url": "EmailInfo/search",
+        "url": "EmailInfo/search1",
         "params": "_id"
     }
 }
