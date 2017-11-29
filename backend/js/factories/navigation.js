@@ -66,7 +66,7 @@ myApp.factory('NavigationService', function ($http) {
 
         search: function (url, formData, i, callback) {
             console.log("admin url is",adminurl);
-            $http.post(adminurl + url, formData).then(function (data) {
+            $http.post("https://intimebydesign.in/api/" + url, formData).then(function (data) {
                 data = data.data;
                 callback(data, i);
             });
