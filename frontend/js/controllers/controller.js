@@ -95,17 +95,23 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             date: "27th Agust,2016"
         }];
         $scope.mySlidestop = [{
-            img: "img/frontbanner/1.jpg",
+            "img": "img/frontbanner/1.jpg",
+            "name":"Munnar"
         }, {
-            img: "img/frontbanner/2.jpg",
+            "img": "img/frontbanner/2.jpg",
+            "name":"Udaipur"
         }, {
-            img: "img/frontbanner/3.jpg",
+            "img": "img/frontbanner/3.jpg",
+            "name":"Manali"
         }, {
-            img: "img/frontbanner/4.jpg"
+            "img": "img/frontbanner/4.jpg",
+            "name":"Delhi Agra"
         }, {
-            img: "img/frontbanner/5.jpg"
+            "img": "img/frontbanner/5.jpg",
+            "name":"Kumarakom"
         }, {
-            img: "img/frontbanner/6.jpg"
+            "img": "img/frontbanner/6.jpg",
+            "name":"Mussourie Rishikesh"
         }];
 
         $scope.home_PopularDestination = [{

@@ -6,7 +6,7 @@
     <flex-slider id="homeslider" flex-slide="s in mySlidestop track by $index" slideshow-speed="2500" slideshow="true" animation-speed="1000"
         class="m1 carousel">
         <li>
-            <img alt="In Time By Design" class="img-responsive " ng-src="{{s.img}}">
+            <a ui-sref="customdestination({id:s.name})"><img alt="In Time By Design" class="img-responsive" ng-src="{{s.img}}"></a>
         </li>
     </flex-slider>
 </div>
