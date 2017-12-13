@@ -3,7 +3,7 @@
 </audio>
 <!-- START DESKTOP SLIDER -->
 <div class="homeslidr hidden-xs">
-    <flex-slider id="homeslider" flex-slide="s in mySlidestop track by $index" slideshow-speed="2500" slideshow="true" animation-speed="3000"
+    <flex-slider id="homeslider" flex-slide="s in mySlidestop track by $index" slideshow-speed="2500" slideshow="true" animation-speed="2500"
         class="m1 carousel">
         <li>
             <a ui-sref="customdestination({id:s.name})"><img alt="In Time By Design" class="img-responsive" ng-src="{{s.img}}"></a>
@@ -39,9 +39,9 @@
 <div class="m8">
     <div class="mr">
         <div class="container borderup">
-            <div class="addimg">
+            <!-- <div class="addimg">
                 <img alt="In Time By Design" src="img/+img.png" class="img-responsive" ui-sref="destination">
-            </div>
+            </div> -->
             <div class="row">
                 <div class="col-md-4 col-sm-4  col-xs-6 displaynon padng0">
                     <h1 class="p p11 pregular" ui-sref="destination">POPULAR</h1>
@@ -69,9 +69,9 @@
     <!--second div -->
     <div class="ml">
         <div class="container borderdown">
-            <div class="addimg1">
+            <!-- <div class="addimg1">
                 <img alt="activity" src="img/+img.png" class="img-responsive" ui-sref="activity">
-            </div>
+            </div> -->
             <div class="row">
                 <div class="col-md-2 col-sm-2 col-xs-6 padng0" ng-repeat="x in popularAttraction | limitTo : 4">
                     <div class="eventshome" ui-sref="customdestination({id:x.name})">
