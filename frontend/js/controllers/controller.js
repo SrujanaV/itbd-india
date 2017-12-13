@@ -20,6 +20,8 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             i++;
             console.log("This is a button Click");
         };
+        $('#loader').show();
+        setTimeout(function(){$('#loader').hide();}, 2000);
         $scope.gotoFun = function () {
             $state.go('customdestination', {
                 id: $scope.goTo
@@ -225,6 +227,8 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         $scope.template = TemplateService.getHTML("content/destination.html");
         TemplateService.title = "Destination"; // This is the Title of the Website
         $scope.navigation = NavigationService.getNavigation();
+        $('#loader').show();
+        setTimeout(function(){$('#loader').hide();}, 2000);
         // $scope.popularDestination = [{
         //         _id: "1",
         //         name: "name",
@@ -380,6 +384,8 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         $scope.currentStateId = $stateParams.id;
         TemplateService.title = $scope.currentStateId; // This is the Title of the Website
         $scope.navigation = NavigationService.getNavigation();
+        $('#loader').show();
+        setTimeout(function(){$('#loader').hide();}, 2000);
         console.log($stateParams);
         //default
         switch ($scope.currentStateId) {
@@ -1209,6 +1215,8 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         $scope.template = TemplateService.getHTML("content/activity.html");
         TemplateService.title = "Activities"; // This is the Title of the Website
         $scope.navigation = NavigationService.getNavigation();
+        $('#loader').show();
+        setTimeout(function(){$('#loader').hide();}, 2000);
         $scope.allactiv = [{
             "name": "BICYCLE TOUR",
             "image": "img/activities/bicycle_tour.jpg"
@@ -1243,6 +1251,8 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
         $scope.template = TemplateService.getHTML("content/whats-hot.html");
         TemplateService.title = "Whats Hot"; // This is the Title of the Website
         $scope.navigation = NavigationService.getNavigation();
+        $('#loader').show();
+        setTimeout(function(){$('#loader').hide();}, 2000);
         $scope.allDestination = [{
             "name": "Hat Rin Full Moon Party",
             "fromDate": "03-04 November 2017",
