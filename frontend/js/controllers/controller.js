@@ -1239,7 +1239,7 @@ myApp.controller('HomeCtrl', function ($scope, TemplateService, NavigationServic
             "name": "SKY DIVING",
             "image": "img/activities/sky_diving.jpg"
         }, {
-            "name": "TRECKING",
+            "name": "TREKKING",
             "image": "img/activities/trecking.jpg"
         }, {
             "name": "SNOW SKIING",
