@@ -21,6 +21,7 @@ module.exports = [
   'bower_components/angulartics/dist/angulartics.min.js',
   'bower_components/angulartics-google-analytics/dist/angulartics-ga.min.js',
   'bower_components/angular-ui-swiper/dist/angular-ui-swiper.js',
+  'bower_components/angular-loading-bar/build/loading-bar.js',
   "bower_components/angular-toastr/dist/angular-toastr.js",
   "bower_components/angular-toastr/dist/angular-toastr.tpls.js",
   "bower_components/angular-promise-buttons/dist/angular-promise-buttons.js",
@@ -49,5 +50,6 @@ module.exports = [
   // Contorllers
   'frontend/js/controllers/controller.js',
   'frontend/js/controllers/header-controller.js',
+   'frontend/js/controllers/footer-controller.js',
   'frontend/js/controllers/language-controller.js',
 ];

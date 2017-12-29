@@ -1,4 +1,4 @@
-myApp.factory('NavigationService', function () {
+myApp.factory('NavigationService', function ($http) {
     var navigation = [{
             name: "DESTINATIONS",
             classis: "active",
@@ -37,6 +37,21 @@ myApp.factory('NavigationService', function () {
     return {
         getNavigation: function () {
             return navigation;
+        },
+        submitEnquiry: function (myForm, callback) {
+            console.log("inside navigaton")
+            $http({
+                url: adminurl + 'Enquiry/saveMailData',
+                method: 'POST',
+                data: myForm
+            }).then(callback);
+        },
+          saveMail: function (myForm, callback) {
+            $http({
+                url: adminurl + 'EmailInfo/save',
+                method: 'POST',
+                data: myForm
+            }).then(callback);
         },
     };
 });

@@ -293,7 +293,7 @@ header {
     .tp {
         font-size: 11px;
         text-align: center;
-        padding-left: 210px;
+        padding-left: 300px;
         color: #000;
         li {
             padding: 24px 0;
@@ -325,7 +325,7 @@ header {
 }
 
 .bluec {
-    color: #002b7f !important;
+    color: #0e0f24 !important;
 }
 
 .blueb {
@@ -671,6 +671,7 @@ nav li:hover .dropdown-menu {
             margin-bottom: 6px !important;
         }
         label {
+            font-family: "Roboto";
             word-spacing: 2px;
             font-size: 14px;
             display: inline-block;
@@ -690,8 +691,8 @@ nav li:hover .dropdown-menu {
     // box-shadow: #002b7f 0 -1px 1px -1px;
     @include transform(rotate(-90deg)); // -webkit-transform: rotate(-90deg);
     position: absolute;
-    left: -94px;
-    top: 57px;
+    left: -90px;
+    top: 59px;
     z-index: 9999;
     .socialpatt {
         list-style: none;
@@ -701,7 +702,7 @@ nav li:hover .dropdown-menu {
         margin: 0;
     }
     li {
-        padding: 3px 30px;
+        padding: 6px 35px;
         font-size: 18px;
     }
 }
@@ -902,7 +903,9 @@ ui-select-bootstrap .ui-select-choices-row>a {
     }
 }
 
-.footermenu,
+.footermenu{
+    background-color: #0f0f24;
+}
 .footer {
     background: #000000;
 }
@@ -912,6 +915,7 @@ ui-select-bootstrap .ui-select-choices-row>a {
 } //end of footer
 //home
 .homeslidr {
+    cursor: pointer;
     margin-top: -15px;
 }
 
@@ -1419,12 +1423,12 @@ figure.hover figcaption {
     h1 {
         font-size: 56px;
         font-weight: bolder;
-        color: #012B7F;
+        color: #0e0f24;
     }
     .ain {
         margin: 0 0 18px;
         font-size: 16px;
-        color: #012B7F;
+        color: #0e0f24;
     }
 }
 
@@ -1823,6 +1827,7 @@ yellow_back_color .flex-control-paging li a.flex-active {
 
 .margincheck {
     margin: 1% 5% -1px;
+    text-align: center;
 }
 
 .checkboxrow {
@@ -1830,7 +1835,7 @@ yellow_back_color .flex-control-paging li a.flex-active {
 }
 
 .checkboxrow {
-    text-transform: capitalize;
+    // text-transform: capitalize;
     text-align: center;
     .check_img {
         display: inline-block;
@@ -2094,7 +2099,35 @@ a:hover {
         outline: 0;
     }
 }
+.link{
+    text-decoration: none;
+    // color: white;
+}
+.inputform {
+    color: #000000 !important;
+    background-color: rgba(255, 255, 255, 0.65) !important;
+    border: none !important;
+    width: 66% !important;
+    height: 27px !important;
+}
+textarea.form-control {
+    height: auto !important;
+}
+::-webkit-scrollbar-button {
+    display: none !important;
+}
 
+ ::-webkit-scrollbar-track {
+    background-color: rgba(245, 245, 245, 0)!important;
+}
+
+ ::-webkit-scrollbar {
+    width: 5px;
+    background-color: rgba(245, 245, 245, 0) !important;
+    height: 5px;
+}
+
+<<<<<<< HEAD
 //  background-color: #f5f5f5;
 .aboutus_para {
     background-color: #002774;
@@ -2155,3 +2188,46 @@ a:hover {
     background-color: #A1BC0A;
     color: #fff;
 }
+=======
+ ::-webkit-scrollbar-thumb {
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.44, rgb(14, 15, 36)), color-stop(0.72, rgb(14, 15, 36)), color-stop(0.86, rgb(14, 15, 36)))!important;
+} //cart scroll
+.scrollmudiv::-webkit-scrollbar-track {
+    background-color: rgba(245, 245, 245, 0);
+}
+
+.scrollmudiv::-webkit-scrollbar {
+    width: 5px;
+    background-color: rgba(245, 245, 245, 0);
+    height: 5px;
+}
+
+.scrollmudiv::-webkit-scrollbar-thumb {
+    background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.44, rgb(14, 15, 36)), color-stop(0.72, rgb(14, 15, 36)), color-stop(0.86, rgb(14, 15, 36)));
+}
+.spinner-overlay {
+    position: absolute;
+    width: 100%;
+    height: 382vh;
+    top: 0;
+    left: 0;
+    background: white;
+    opacity: 0.8;
+    z-index: 9998;    
+}
+.spinner {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    opacity: 1;
+}
+.blueb{
+    color: #0e0f24 !important;
+}
+label{
+    font-weight: 300 !important;
+}
+//  background-color: #f5f5f5;
+>>>>>>> a5072c2bfdf48b2662a285f5d8a467cae13808b6

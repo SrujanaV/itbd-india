@@ -1,0 +1,30 @@
+{
+    "title": "Emails",
+    "description": "List of Emails",
+    "pageType": "view",
+    "sendIdWithCreate": true,
+    "urlFields": ["_id"],
+    "fields": [ {
+        "name": "Email",
+        "isSort": "",
+        "tableRef": "email"
+    }],
+    "action": [{
+        "name": "delete",
+        "icon": "fa-trash",
+        "buttonClass": "btn-danger",
+        "type": "apiCallConfirm",
+        "title": "Delete EmailInfo",
+        "content": "Are you sure you want to delete EmailInfo?",
+        "api": "EmailInfo/delete",
+        "fieldsToSend": {
+            "name": "_id",
+            "value": "_id"
+        }
+    }],
+    "button": [],
+    "apiCall": {
+        "url": "EmailInfo/search",
+        "params": "_id"
+    }
+}
