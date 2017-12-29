@@ -191,4 +191,30 @@
     .cartsum {
         font-size: 24px;
     }
+    .content2 {
+        height: 78px !important;
+    }
+    .abt_heading {
+        font-size: 50px !important;
+    }
+    .abt_para {
+        font-size: 16px;
+    }
+    .img_client {
+        margin-top: -15px;
+        width: 111px;
+        margin: 0 auto;
+    }
+    .content2 {
+        //  height: 56px !important;
+        //  min-height: 90px;
+        height: unset !important;
+    }
+    .client_name {
+        font-size: 19px;
+        text-align: center;
+    }
+    .mob_pad0 {
+        padding: 0;
+    }
 }

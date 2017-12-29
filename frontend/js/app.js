@@ -55,6 +55,11 @@ myApp.config(function ($stateProvider, $urlRouterProvider, $httpProvider, $locat
             url: "/whats-hot",
             templateUrl: tempateURL,
             controller: 'WhatsHotCtrl'
+        })
+        .state('aboutus', {
+            url: "/aboutus",
+            templateUrl: tempateURL,
+            controller: 'AboutusCtrl'
         });
     $urlRouterProvider.otherwise("/");
     $locationProvider.html5Mode(isproduction);
