@@ -11200,7 +11200,7 @@ figure.hover figcaption {
   display: inline-block !important;
   width: 250px;
   vertical-align: top;
-  padding-top: 9%; }
+  padding-top: 2%; }
 
 .spAb {
   width: 50%;
@@ -12135,8 +12135,6 @@ textarea.form-control {
     padding-left: 0; }
   .spAb h1 {
     font-size: 40px; }
-  .spAb .ain {
-    font-size: 10px; }
   .margbotom {
     margin-bottom: 0 !important;
     font-size: 16px; }
@@ -12303,7 +12301,10 @@ textarea.form-control {
     border-right: 0px; }
   .cartadd {
     bottom: 0;
-    height: auto; }
+    height: auto;
+    top: 230px; }
+    .cartadd .mycartme {
+      top: 350px; }
   .mycart2 li {
     font-size: 14px; }
   .mycart2 {
@@ -12315,6 +12316,8 @@ textarea.form-control {
     width: 100%; }
   .stp .form-control {
     font-size: 15px; }
+  .footb .padright {
+    text-align: center; }
   .event-name span {
     letter-spacing: inherit;
     font-size: 11px; }
@@ -12341,8 +12344,10 @@ textarea.form-control {
   .imAb {
     width: 115px; }
   .sado {
-    font-size: 9px;
-    padding: 8px 20px; }
+    background-size: 100% 100%;
+    background-position-x: center;
+    text-align: center;
+    float: none; }
   .fsiz {
     font-size: 30px; }
   .firstimg .front,

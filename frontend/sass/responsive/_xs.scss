@@ -86,6 +86,10 @@
         // width: 100%;
         bottom: 0;
         height: auto;
+        top: 230px;
+        .mycartme {
+            top: 350px;
+        }
     }
     .mycart2 li {
         font-size: 14px;
@@ -103,7 +107,11 @@
     .stp .form-control {
         font-size: 15px;
     } //end of footer
-    //home
+    .footb {
+        .padright {
+            text-align: center;
+        }
+    } //home
     .event-name span {
         letter-spacing: inherit;
         font-size: 11px;
@@ -138,8 +146,10 @@
         width: 115px;
     }
     .sado {
-        font-size: 9px;
-        padding: 8px 20px;
+        background-size: 100% 100%;
+        background-position-x: center;
+        text-align: center;
+        float: none;
     } //home ends here
     // destination starts here
     .fsiz {
