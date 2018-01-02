@@ -11169,7 +11169,7 @@ figure.hover figcaption {
     -moz-appearance: none;
     appearance: none;
     background: transparent url("../img/vector.png") no-repeat right center;
-    border-bottom: 4px solid #81b1d9;
+    border-bottom: 4px solid #81b1d9 !important;
     font-size: 23px;
     color: #81b1d9 !important;
     padding: 0 6px;
@@ -11913,11 +11913,6 @@ textarea.form-control {
     left: -10%; }
   .navbar-default .navbar-nav > li > a {
     font-size: 10px; }
-  .stp .form-control {
-    font-size: 10px; }
-  .footermen {
-    margin: 0 !important;
-    padding: 15px 0; }
   .event-name {
     line-height: 12px; }
     .event-name span {
@@ -11972,8 +11967,6 @@ textarea.form-control {
     left: -13%; }
   .foo_block {
     padding: 20px; }
-  .stp .form-control {
-    width: 35% !important; }
   .hbc .tp {
     padding-left: 54px !important; }
   .hbc .tp {
@@ -12057,9 +12050,6 @@ textarea.form-control {
   .mf,
   .textalign {
     text-align: center; }
-  .stp {
-    font-size: 14px;
-    padding: 1% 0; }
   .homeslid .flex-control-nav {
     width: 30% !important;
     position: absolute;
@@ -12258,26 +12248,28 @@ textarea.form-control {
     display: block; }
   .patmargin3 .formlabels button {
     margin-left: 0px; }
-  .stp .form-control {
-    width: 55% !important; }
+  .himg2 {
+    width: 75%;
+    margin-left: 10%;
+    margin-top: -5.5%; }
   .himg2 .dropdown-menu a {
     font-size: 8px; }
   .himg2 .form-control {
-    background-size: 10px; }
+    width: 98%;
+    padding-left: 11px; }
   .navbar-default .navbar-toggle:hover,
   .navbar-default .navbar-toggle:focus {
     background-color: #0d0f24; }
   .himg {
     width: 130px; }
   .imgab {
-    width: 40%;
-    top: 35px; }
+    width: 29%; }
   .himg2 .gobtn {
+    padding-left: 0;
+    font-size: 16px; }
+  .labsec {
     font-size: 14px;
-    padding-left: 4px;
-    vertical-align: super; }
-  figure figcaption {
-    top: -15px; }
+    padding-left: 12px; }
   .m8 {
     margin-bottom: 0px; }
   .hbc .tp {
@@ -12289,7 +12281,7 @@ textarea.form-control {
   .himg2 .inputtag {
     width: 80%; }
   .himg2 .form-control {
-    font-size: 10px;
+    font-size: 11px;
     overflow: hidden !important;
     white-space: pre-wrap;
     text-overflow: ellipsis; }
@@ -12315,7 +12307,7 @@ textarea.form-control {
     top: 250px !important;
     width: 100%; }
   .stp .form-control {
-    font-size: 15px; }
+    display: inline-block; }
   .footb .padright {
     text-align: center; }
   .event-name span {
@@ -12339,15 +12331,13 @@ textarea.form-control {
   .m4 .m2 .pd15 h1 {
     font-size: 29px;
     padding: 0; }
-  .himg2 .inputtag {
-    width: 70%; }
   .imAb {
     width: 115px; }
   .sado {
-    background-size: 100% 100%;
     background-position-x: center;
     text-align: center;
-    float: none; }
+    float: none;
+    font-size: 9px; }
   .fsiz {
     font-size: 30px; }
   .firstimg .front,
@@ -12399,4 +12389,6 @@ textarea.form-control {
     font-size: 19px;
     text-align: center; }
   .mob_pad0 {
-    padding: 0; } }
+    padding: 0; }
+  .spAb .ain {
+    font-size: 11px; } }
